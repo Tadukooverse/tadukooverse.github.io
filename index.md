@@ -8,7 +8,12 @@ Welcome to the official website for the [Tadukooverse organization](https://gith
 > **Note**: Please bear with us as this website is under construction.
 
 Current sitemap (Temporary, will add navigation soon):
-- [FAQ](about/faq.html)
-- [Roadmap](about/roadmap.html)
-- [Tadukoo Util](project/TadukooUtil.html)
-- [Tadukoo Engine](project/TadukooEngine.html)
+- About
+	- [FAQ](about/faq.html)
+	- [Roadmap](about/roadmap.html)
+- Community
+	- [Code of Conduct](community/CODE_OF_CONDUCT.html)
+	- [Contributing Guidelines](community/CONTRIBUTING.html)
+- Projects
+	- [Tadukoo Util](project/TadukooUtil.html)
+	- [Tadukoo Engine](project/TadukooEngine.html)
