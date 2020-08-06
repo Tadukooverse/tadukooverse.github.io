@@ -89,8 +89,14 @@ makes it easier to handle common dependencies across projects. For more informat
 [Tadukoo Engine](project/TadukooEngine.html) page.
 
 #### First Release: Alpha v.0.1
+> **[Main Page/Progress](https://github.com/Tadukoo/TadukooEngine/milestone/1)**
 The current plan for Alpha v.0.1 is to complete the following:
-- Create files for programs to tell the launcher what dependencies they need
-- Create library files (for a list of officially supported libraries for easy dependency lookup)
+- Allow the launcher to successfully launch and terminate programs
+- Allow the launcher to download programs and libraries (using GitHub releases for now)
+- Create files for programs to tell the launcher what dependencies they need (program description files)
+- Create library description files (for information the launcher needs about the libraries, how to get them, and their dependencies)
 - Create program library files (in order to populate the launcher dynamically with lists of programs rather than hard-code it)
+- The downloader should download and run the installer (currently just plans for Windows installer, since I don't have Mac or Linux)
+	- There will be instructions to run it on Mac/Linux
+- Allow the launcher to update itself using the GitHub releases
 > **Note**: This list will be updated in the near future to be more detailed
