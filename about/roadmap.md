@@ -60,6 +60,18 @@ It'll have the following sections:
 * [Tadukoo Engine](/project/TadukooEngine.html)
 * [Tadukoo Util](/project/TadukooUtil.html)
 
+#### Projects to Transfer
+Currently, the projects that will be present in Tadukooverse are under control of me (Tadukoo). I want to move them to the Tadukooverse organization so that others can more easily contribute and use what I'm working on, and as a means to have everything organized better via this website.
+
+I currently plan to move the following projects to Tadukooverse over time (not all at once) (note that most of them are in early development):
+* [Tadukoo Util](https://github.com/Tadukoo/TadukooUtil)
+* [Tadukoo Engine](https://github.com/Tadukoo/TadukooEngine)
+* Old Tadukoo Util - currently private, is to be used for deprecated old libraries that probably shouldn't be used (as there are better options)
+* Tadukoo Parsing - currently private, will be used for parsing libraries, e.g. JSON
+* Tadukoo Web Services - currently private, will be used as a library for communicating with web services, particularly REST services at first
+* [Tadukoo Genealogy](https://github.com/Tadukoo/TadukooGenealogy) - meant to be a free genealogy program that allows for plugins
+* My Minecraft/Bukkit plugin projects - multiple projects, these are likely far away from being moved as they're in a weird state and I'll probably focus on Tadukoo Util and Engine/Launcher along with their libraries and programs before going back to working on Minecraft stuff
+
 ### Tadukoo Util
 > **Note**: Tadukoo Util is meant as a collection of utility libraries for very common use. For more information about Tadukoo Util, see the 
 [Tadukoo Util](/project/TadukooUtil.html) page.
