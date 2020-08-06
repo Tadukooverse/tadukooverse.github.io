@@ -90,6 +90,7 @@ makes it easier to handle common dependencies across projects. For more informat
 
 #### First Release: Alpha v.0.1
 > **[Main Page/Progress](https://github.com/Tadukoo/TadukooEngine/milestone/1)**
+
 The current plan for Alpha v.0.1 is to complete the following:
 - Allow the launcher to successfully launch and terminate programs
 - Allow the launcher to download programs and libraries (using GitHub releases for now)
