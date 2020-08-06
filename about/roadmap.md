@@ -9,6 +9,7 @@ title: Roadmap
 [Vision](#vision)
 
 [Roadmap](#roadmap)
+* [General Tadukooverse](#general-tadukooverse)
 * [Tadukoo Util](#tadukoo-util)
 * [Tadukoo Engine/Launcher](#tadukoo-enginelauncher)
 
@@ -22,9 +23,46 @@ extensions or modifications based on their needs using the open source code.
 
 ## Roadmap
 
+### General Tadukooverse
+> **Note**: This section is mainly to deal with how we get from nothing to the early stages of Tadukooverse
+
+#### .github
+[.github](https://github.com/Tadukooverse/.github) is the repository to hold the [Community Health Files](https://docs.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file) for the Tadukooverse organization.
+
+We plan to include the following files (note: some links may not work due to the files not existing yet):
+* [Code of Conduct](/community/CODE_OF_CONDUCT.html)
+* [Contributing Guidelines](/community/CONTRIBUTING.html)
+* [Issue Templates](https://github.com/Tadukooverse/.github/.github/ISSUE_TEMPLATE)
+* [Pull Request Templates](https://github.com/Tadukooverse/.github/.github/PULL_REQUEST_TEMPLATE)
+* [Security Policy](/community/SECURITY.md)
+* [Support Resources](/community/SUPPORT.md)
+
+#### tadukooverse.github.io
+[tadukooverse.github.io](https://github.com/Tadukooverse/tadukooverse.github.io) is the repository to hold the GitHub pages website for the Tadukooverse organization.
+
+It'll have the following sections:
+* [About](/about.html) - used for general pages about the Tadukooverse organization
+* [Blog](/blog.html) - used for blogging/updates for the Tadukooverse organization
+* [Community](/community.html) - used to link to the default community pages from the .github repo
+* [Projects](/projects.html) - used for pages about the various projects on Tadukooverse
+
+##### About Section
+* [FAQ](/about/faq.html) - For frequently asked questions
+* **Roadmap** - this page, for current major goals
+
+##### Blog Section
+* TBD (don't have a solid plan on this yet, but I do want to have an updates/history/information section on the website)
+
+##### Community Section
+* Updated via the .github repo
+
+##### Projects Section
+* [Tadukoo Engine](/project/TadukooEngine.html)
+* [Tadukoo Util](/project/TadukooUtil.html)
+
 ### Tadukoo Util
 > **Note**: Tadukoo Util is meant as a collection of utility libraries for very common use. For more information about Tadukoo Util, see the 
-[Tadukoo Util](project/TadukooUtil.html) page.
+[Tadukoo Util](/project/TadukooUtil.html) page.
 
 #### First Release: Alpha v.0.1
 The current plan for Alpha v.0.1 is to complete the following:
