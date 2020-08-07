@@ -77,11 +77,14 @@ I currently plan to move the following projects to Tadukooverse over time (not a
 [Tadukoo Util](/project/TadukooUtil.html) page.
 
 #### First Release: Alpha v.0.1
+> **[Main Page/Progress](https://github.com/Tadukoo/TadukooUtil/milestone/1)**
+
 The current plan for Alpha v.0.1 is to complete the following:
+- Write JUnit tests for most (/all?) of the classes
 - Finish Tadukoo Look & Feel
-- Write Unit Tests for all of Tadukoo Lang and some of the other modules
-- Write a few more utilities
-> **Note**: This list will be updated in the near future to be more detailed
+- Finish Tadukoo Database
+- Finish Tadukoo File Format
+- Create Forms in Tadukoo View (panel/frame used to store information for a pojo/piece of data to be easily converted to database or file format)
 
 ### Tadukoo Engine/Launcher
 > **Note**: Tadukoo Engine and Tadukoo Launcher go hand-in-hand. Tadukoo Engine is used as a base for programs made to run in the Tadukoo Launcher. Having a common launcher 
@@ -100,4 +103,3 @@ The current plan for Alpha v.0.1 is to complete the following:
 - The downloader should download and run the installer (currently just plans for Windows installer, since I don't have Mac or Linux)
 	- There will be instructions to run it on Mac/Linux
 - Allow the launcher to update itself using the GitHub releases
-> **Note**: This list will be updated in the near future to be more detailed
