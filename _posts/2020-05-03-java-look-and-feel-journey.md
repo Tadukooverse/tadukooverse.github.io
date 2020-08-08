@@ -43,7 +43,7 @@ in a later post (notes will be made in the original post linking to the correcti
 2. [Button Journey]({% post_url 2020-05-10-java-look-and-feel-button-journey %}) - 5/10/2020
 3. [Building the Border Wall]({% post_url 2020-05-17-java-look-and-feel-building-border-wall %}) - 5/17/2020
 4. [Customizability]({% post_url 2020-05-24-java-look-and-feel-customizability %}) - 5/24/2020
-5. [Customizability 2: Electric Boogaloo]({% post_url 2020-5-31-java-look-and-feel-customizability-2 %}) - 5/31/2020
+5. [Customizability 2: Electric Boogaloo]({% post_url 2020-05-31-java-look-and-feel-customizability-2 %}) - 5/31/2020
 6. [Gradients]({% post_url 2020-06-07-java-look-feel-gradients %}) - 6/7/2020
 7. [Tadukoo Util Placement]({% post_url 2020-06-14-java-look-feel-tadukoo-util-placement %}) - 6/14/2020
 8. Make Paint Great Again - Coming 6/21/2020
