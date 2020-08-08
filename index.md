@@ -10,7 +10,7 @@ Welcome to the official website for the [Tadukooverse organization](https://gith
 Current sitemap (Temporary, will add navigation soon):
 - About
   {% for about in site.about %}
-  - [[{{about.title}}]({{about.url}}) - {{about.blurb}}
+  - [{{about.title}}]({{about.url}}) - {{about.blurb}}
   {% endfor %}
 - Community
 	- [Code of Conduct](community/CODE_OF_CONDUCT.html)
