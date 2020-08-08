@@ -13,8 +13,9 @@ Current sitemap (Temporary, will add navigation soon):
   - [{{about.title}}]({{about.url}}) - {{about.blurb}}
   {% endfor %}
 - Community
-	- [Code of Conduct](community/CODE_OF_CONDUCT.html)
-	- [Contributing Guidelines](community/CONTRIBUTING.html)
+  {% for community in site.community %}
+  - [{{community.title}}]({{community.url}}
+  {% endfor %}
 - Projects
   {% for project in site.projects %}
   - [{{project.title}}]({{project.url}}) - {{project.blurb}}
