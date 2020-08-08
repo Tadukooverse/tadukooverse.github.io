@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 	<link rel="stylesheet" href="/assets/css/styles.css">
@@ -16,23 +15,12 @@
     <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
   </head>
   <body>
-      <div id="header">
-		{% include navigation.html %}
-	  <!--
-        <nav>
-          <!-- <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li> -->
-          <!--<li class="fork"><a href="/index.html">Home</a><li>
-          <li class="fork"><a href="/about.html">About</a></li>
-          <li class="fork"><a href="/community.html">Community</a></li>
-          <li class="fork"><a href="/projects.html">Projects</a></li>
-        </nav>-->
-      </div><!-- end header -->
-
+    <div id="header">
+        {% include navigation.html %}
+    </div>
     <div class="wrapper">
-
       <section>
         <div id="title">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -41,13 +29,9 @@
           <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></span>
         </div>
-
         {{ content }}
-
       </section>
-
     </div>
-
     {% if site.google_analytics %}
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -58,7 +42,6 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-	
 	{% include footer.html %}
   </body>
 </html>
