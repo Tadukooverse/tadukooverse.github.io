@@ -1,8 +1,8 @@
 ---
-layout: default
 title: Commmunity
 ---
+# Community
 
-The following pages are in the Community section:
-- [Code of Conduct](/community/CODE_OF_CONDUCT.html)
-- [Contributing Guidelines](/community/CONTRIBUTING.html)
+{% for community in site.community %}
+### [{{community.title}}]({{community.url}}) - {{community.blurb}}
+{% endfor %}
