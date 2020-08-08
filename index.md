@@ -15,5 +15,10 @@ Current sitemap (Temporary, will add navigation soon):
 	- [Code of Conduct](community/CODE_OF_CONDUCT.html)
 	- [Contributing Guidelines](community/CONTRIBUTING.html)
 - Projects
-	- [Tadukoo Util](project/TadukooUtil.html)
-	- [Tadukoo Engine](project/TadukooEngine.html)
+  <ul>
+  {% for project in site.projects %}
+    <li>
+	  <h2><a href="{{project.url}}">{{project.name}}</a></h2>
+	  <p>{{project.summary}}</p>
+	</li>
+  {% endfor %}
