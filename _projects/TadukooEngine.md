@@ -10,5 +10,5 @@ summary: '<p>Tadukoo Engine and Tadukoo Launcher go hand-in-hand. Tadukoo Engine
   <p>Tadukoo Launcher provides a list of programs that are installed or may be downloaded. Once a program is selected, the launcher will download it along with its required libraries. Then 
   the libraries and program will be loaded into memory and launched.</p>
   <p>Tadukoo Engine provides the proper interfaces that programs should use to allow the launcheer to connect to and load them. In addition, the engine and launcher come with standard 
-  libraries from Tadukoo Util by default so they don’t need to be downloaded separately later.</p>
+  libraries from Tadukoo Util by default so they don’t need to be downloaded separately later.</p>'
 ---
