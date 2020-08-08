@@ -14,7 +14,7 @@ Current sitemap (Temporary, will add navigation soon):
   {% endfor %}
 - Community
   {% for community in site.community %}
-  - [{{community.title}}]({{community.url}}
+  - [{{community.title}}]({{community.url}})
   {% endfor %}
 - Projects
   {% for project in site.projects %}
