@@ -2,6 +2,8 @@ theme: jekyll-theme-midnight
 collections:
   about:
     output: true
+  community:
+    output: true
   projects:
     output: true
 
@@ -9,6 +11,11 @@ defaults:
   - scope:
       path: ""
       type: "about"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "community"
     values:
       layout: "default"
   - scope:
