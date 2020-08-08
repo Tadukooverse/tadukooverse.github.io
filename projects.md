@@ -5,6 +5,6 @@ title: Projects
 # Projects
 
 {% for project in site.projects %}
-## [{{project.name}}]({{project.url}})
+## [{{project.title}}]({{project.url}})
 {{project.summary}}
 {% endfor %}
