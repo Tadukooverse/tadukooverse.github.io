@@ -19,13 +19,21 @@
   </head>
   <body>
       <div id="header">
+		<nav>
+		  {% for item in site.data.navigation %}
+			<a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+			  {{ item.name }}
+			</a>
+		  {% endfor %}
+		</nav>
+	  <!--
         <nav>
           <!-- <li class="fork"><a href="{{ site.github.repository_url }}">View On GitHub</a></li> -->
-          <li class="fork"><a href="/index.html">Home</a><li>
+          <!--<li class="fork"><a href="/index.html">Home</a><li>
           <li class="fork"><a href="/about.html">About</a></li>
           <li class="fork"><a href="/community.html">Community</a></li>
           <li class="fork"><a href="/projects.html">Projects</a></li>
-        </nav>
+        </nav>-->
       </div><!-- end header -->
 
     <div class="wrapper">
