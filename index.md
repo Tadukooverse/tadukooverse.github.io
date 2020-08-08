@@ -9,12 +9,13 @@ Welcome to the official website for the [Tadukooverse organization](https://gith
 
 Current sitemap (Temporary, will add navigation soon):
 - About
-	- [FAQ](about/faq.html)
-	- [Roadmap](about/roadmap.html)
+  {% for about in site.about %}
+  - [[{{about.title}}]({{about.url}}) - {{about.blurb}}
+  {% endfor %}
 - Community
 	- [Code of Conduct](community/CODE_OF_CONDUCT.html)
 	- [Contributing Guidelines](community/CONTRIBUTING.html)
 - Projects
   {% for project in site.projects %}
-    - [{{project.name}}]({{project.url}}) - {{project.blurb}}
+  - [{{project.title}}]({{project.url}}) - {{project.blurb}}
   {% endfor %}

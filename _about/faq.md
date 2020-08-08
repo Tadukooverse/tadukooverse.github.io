@@ -1,6 +1,7 @@
 ---
-layout: default
 title: FAQ
+blurb: Frequently asked questions about the Tadukooverse organization and our projects
+summary: Frequently asked questions about the Tadukooverse organization and our projects
 ---
 
 ## FAQ

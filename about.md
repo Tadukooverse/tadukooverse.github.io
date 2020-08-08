@@ -2,9 +2,9 @@
 layout: default
 title: About
 ---
+# About
 
-## About
-
-The following pages are in the About section:
-- [FAQ](/about/faq.html)
-- [Roadmap](/about/roadmap.html)
+{% for about in site.about %}
+## [{{about.name}}]({{about.url}})
+{{about.summary}}
+{% endfor %}

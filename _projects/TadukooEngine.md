@@ -1,6 +1,6 @@
 ---
 short_name: TadukooEngine
-name: Tadukoo Engine/Launcher
+title: Tadukoo Engine/Launcher
 blurb: >
   Tadukoo Engine and Tadukoo Launcher go hand-in-hand. Tadukoo Engine is used as a base for programs made to run in the Tadukoo Launcher. Having a common launcher makes it easier to handle 
   common dependencies across projects.

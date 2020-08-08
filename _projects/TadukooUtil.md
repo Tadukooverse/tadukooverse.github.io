@@ -1,6 +1,6 @@
 ---
 short_name: TadukooUtil
-name: Tadukoo Util
+title: Tadukoo Util
 blurb: Tadukoo Util is meant as a collection of utility libraries for very common use.
 summary: >
   Tadukoo Util is meant as a collection of utility libraries for very common use. They can be used in conjunction with Tadukoo Engine/Launcher, or can be used separately in other programs if desired. 

@@ -1,6 +1,7 @@
 ---
-layout: default
 title: Roadmap
+blurb: An overview of current plans for Tadukooverse and our projects
+summary: An overview of current plans for Tadukooverse and our projects, along with links to more detailed plans
 ---
 
 > **Note**: This page is under construction and likely to change
