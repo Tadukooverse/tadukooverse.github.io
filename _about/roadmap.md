@@ -61,6 +61,7 @@ It'll have the following sections:
 ##### Guides Section
 * Debugging Guide - guide on how to debug issues in the software - may need to be multiple guides for specific programs in the future?
 * Tadukoo Engine/Launcher Guide - guide on how to develop against the engine/launcher - and a guide on how to use it?
+* Tadukoo Annotation Processor Guide - guide on how to make an annotation processor using Tadukoo Annotation Processor module
 
 ##### Projects Section
 * [Tadukoo Engine](/project/TadukooEngine.html)
