@@ -2,7 +2,9 @@
 layout: default
 title: Projects
 ---
+# Projects
 
-The following are the current project pages:
-- [Tadukoo Engine/Launcher](/project/TadukooEngine.html)
-- [Tadukoo Util](/project/TadukooUtil.html)
+{% for project in site.projects %}
+	<h2><a href="{{project.url}}">{{project.name}}</a></h2>
+	{{project.summary}}
+{% endfor %}
