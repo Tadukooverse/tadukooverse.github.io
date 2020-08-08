@@ -19,7 +19,7 @@ Current sitemap (Temporary, will add navigation soon):
   {% for project in site.projects %}
     <li>
 	  <h2><a href="{{project.url}}">{{project.name}}</a></h2>
-	  {{project.summary | markdownify}}
+	  {{project.summary}}
 	</li>
   {% endfor %}
   </ul>
