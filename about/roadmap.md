@@ -44,6 +44,7 @@ It'll have the following sections:
 * [About](/about.html) - used for general pages about the Tadukooverse organization
 * [Blog](/blog.html) - used for blogging/updates for the Tadukooverse organization
 * [Community](/community.html) - used to link to the default community pages from the .github repo
+* [Guides](/guides.html) - used for both guides on how to use the software, as well as guides on how to contribute (beyond the contributing guidelines)
 * [Projects](/projects.html) - used for pages about the various projects on Tadukooverse
 
 ##### About Section
@@ -55,6 +56,10 @@ It'll have the following sections:
 
 ##### Community Section
 * Updated via the .github repo
+
+##### Guides Section
+* Debugging Guide - guide on how to debug issues in the software - may need to be multiple guides for specific programs in the future?
+* Tadukoo Engine/Launcher Guide - guide on how to develop against the engine/launcher - and a guide on how to use it?
 
 ##### Projects Section
 * [Tadukoo Engine](/project/TadukooEngine.html)
