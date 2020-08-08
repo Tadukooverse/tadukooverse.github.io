@@ -34,7 +34,8 @@ Look & Feel, the Components wouldn't be able to be used anyway. Note: My idea ha
 
 I'm making a new package called com.gmail.realtadukoo.components and moving Shaped, TadukooShape, and TadukooButton into it. Also making a subpackage under lookandfeel called componentui, which currently will just have 
 TadukooButtonUI. Another subpackage called paintui will contain PaintUIResource and Gradient (and some changes will be made in that package next time). TadukooBorder doesn't feel like it belongs where it is, but it also 
-doesn't feel like it deserves its own package. Perhaps at some point we'll make more borders that mimic the existing borders, but allowing shapes like TadukooBorder currently does.</div><div><br /></div><div>To see the 
-changes made with this version, check out [this commit](https://github.com/Tadukoo/TadukooUtil/commit/4bd17838ce8d548e3022cc1e2a80caab1c724ced)
+doesn't feel like it deserves its own package. Perhaps at some point we'll make more borders that mimic the existing borders, but allowing shapes like TadukooBorder currently does.
+
+To see the changes made with this version, check out [this commit](https://github.com/Tadukoo/TadukooUtil/commit/4bd17838ce8d548e3022cc1e2a80caab1c724ced)
 
 Next time will be more about the gradient and paint stuff.
