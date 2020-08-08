@@ -15,11 +15,7 @@ Current sitemap (Temporary, will add navigation soon):
 	- [Code of Conduct](community/CODE_OF_CONDUCT.html)
 	- [Contributing Guidelines](community/CONTRIBUTING.html)
 - Projects
-  <ul>
   {% for project in site.projects %}
-    <li>
-	  <h2><a href="{{project.url}}">{{project.name}}</a></h2>
-	  {{project.summary}}
-	</li>
+    - <h2><a href="{{project.url}}">{{project.name}}</a></h2>
+	  : {{project.summary}}	
   {% endfor %}
-  </ul>
