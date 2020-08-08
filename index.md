@@ -16,6 +16,5 @@ Current sitemap (Temporary, will add navigation soon):
 	- [Contributing Guidelines](community/CONTRIBUTING.html)
 - Projects
   {% for project in site.projects %}
-    - <h2><a href="{{project.url}}">{{project.name}}</a></h2>
-	  {{project.summary}}	
+    - [{{project.name}}]({{project.url}}) - {{project.blurb}}
   {% endfor %}
