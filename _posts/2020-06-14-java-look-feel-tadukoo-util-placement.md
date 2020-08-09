@@ -40,4 +40,4 @@ doesn't feel like it deserves its own package. Perhaps at some point we'll make 
 
 To see the changes made with this version, check out [this commit](https://github.com/Tadukoo/TadukooUtil/commit/4bd17838ce8d548e3022cc1e2a80caab1c724ced)
 
-Next time will be more about the gradient and paint stuff.
+[Next time]({% post_url 2020-08-09-java-look-feel-make-paint-great-again %}) will be more about the gradient and paint stuff.
