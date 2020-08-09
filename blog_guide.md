@@ -29,6 +29,8 @@ Posts about how development is progressing on Tadukooverse projects.
 {% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}
 Tadukoo is on a journey to create a customizable look & feel called "Tadukoo Look & Feel" (part of [Tadukoo Util]({{TadukooUtil.url}})).
 
+This journey started with a special post about what the full plan was: [Java Look & Feel Journey]({% post_url 2020-05-03-java-look-and-feel-journey %})
+
 {% assign lookAndFeelPosts = site.posts | where:"series", "Tadukoo Look & Feel Journey" | sort:"index" %}
 {% for lookAndFeelPost in lookAndFeelPosts %}{{lookAndFeelPost.index}}. [{{lookAndFeelPost.title | remove:"Java Look and Feel: " | remove:"Java Look & Feel: "}}]({{lookAndFeelPost.url}}) - 
 {{lookAndFeelPost.date | date_to_string}}
