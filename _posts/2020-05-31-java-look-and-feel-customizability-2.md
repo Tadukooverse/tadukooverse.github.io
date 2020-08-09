@@ -3,6 +3,8 @@ title:  "Java Look and Feel: Customizability 2: Electric Boogaloo"
 author: Tadukoo
 date:   2020-05-31 15:42:00 -0300
 old_blog: true
+series: "Tadukoo Look & Feel Journey"
+index: 5
 categories: blog
 tags: 
 - Java

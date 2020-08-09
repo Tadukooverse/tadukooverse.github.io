@@ -3,6 +3,8 @@ title:  "Java Look and Feel: Building the Border Wall"
 author: Tadukoo
 date:   2020-05-17 10:15:00 -0300
 old_blog: true
+series: "Tadukoo Look & Feel Journey"
+index: 3
 categories: blog
 tags: 
 - Java

@@ -3,6 +3,8 @@ title:  "Java Look and Feel: Button Journey"
 author: Tadukoo
 date:   2020-05-10 14:49:00 -0300
 old_blog: true
+series: "Tadukoo Look & Feel Journey"
+index: 2
 categories: blog
 tags: 
 - Java

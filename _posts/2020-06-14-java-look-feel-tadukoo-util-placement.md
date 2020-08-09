@@ -3,6 +3,8 @@ title:  "Java Look & Feel: Tadukoo Util Placement"
 author: Tadukoo
 date:   2020-06-14 15:37:00 -0300
 old_blog: true
+series: "Tadukoo Look & Feel Journey"
+index: 7
 categories: blog
 tags: 
 - Java
@@ -17,7 +19,7 @@ comment_issue_id: 39
 *That post will also guide you to another tutorial on using Java's Components & Layouts, so you can make a program to actually see the Look & Feel changes. At this point in the journey, you'd only need the 
 [first post]({% post_url 2020-05-10-java-components-layouts-labels-text %}), to have a button on screen to see the changes to it, but going further in that series is fine too.*
 
-*This is part 5 of the "Journey" posts. Follow this link for part 1: [Getting Started]({% post_url 2020-05-03-java-look-and-feel-getting-started %}) or this link for the previous part: 
+*This is part 7 of the "Journey" posts. Follow this link for part 1: [Getting Started]({% post_url 2020-05-03-java-look-and-feel-getting-started %}) or this link for the previous part: 
 [6. Gradients]({% post_url 2020-06-07-java-look-feel-gradients %})*
 
 Last time I said I'd be moving the Tadukoo Look & Feel to Tadukoo Util. First of all, I had to commit FloatUtil to it, because that was just local so far (not a big deal). I decided to merge all the branches together, 

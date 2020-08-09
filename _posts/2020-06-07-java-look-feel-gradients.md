@@ -3,6 +3,8 @@ title:  "Java Look & Feel: Gradients"
 author: Tadukoo
 date:   2020-06-07 14:07:00 -0300
 old_blog: true
+series: "Tadukoo Look & Feel Journey"
+index: 6
 categories: blog
 tags: 
 - Java
@@ -17,7 +19,7 @@ comment_issue_id: 38
 *That post will also guide you to another tutorial on using Java's Components & Layouts, so you can make a program to actually see the Look & Feel changes. At this point in the journey, you'd only need the 
 [first post]({% post_url 2020-05-10-java-components-layouts-labels-text %}), to have a button on screen to see the changes to it, but going further in that series is fine too.*
 
-*This is part 5 of the "Journey" posts. Follow this link for part 1: [Getting Started]({% post_url 2020-05-03-java-look-and-feel-getting-started %}) or this link for the previous part: 
+*This is part 6 of the "Journey" posts. Follow this link for part 1: [Getting Started]({% post_url 2020-05-03-java-look-and-feel-getting-started %}) or this link for the previous part: 
 [5. Customizability 2: Electric Boogaloo]({% post_url 2020-05-31-java-look-and-feel-customizability-2 %})*
 
 Now to get back to the Button.gradient, I don't like the way that it's a List. The format used by Metal is a List of two floats and three Colors. This may be unique to OceanTheme (I haven't checked in DefaultMetalTheme 

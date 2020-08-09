@@ -3,6 +3,8 @@ title:  "Java Look and Feel: Customizability"
 author: Tadukoo
 date:   2020-05-24 14:24:00 -0300
 old_blog: true
+series: "Tadukoo Look & Feel Journey"
+index: 4
 categories: blog
 tags: 
 - Java

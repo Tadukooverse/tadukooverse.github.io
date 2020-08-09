@@ -3,6 +3,8 @@ title:  "Java Look and Feel: Getting Started"
 author: Tadukoo
 date:   2020-05-03 20:46:00 -0300
 old_blog: true
+series: "Tadukoo Look & Feel Journey"
+index: 1
 categories: blog
 tags: 
 - Java

@@ -3,6 +3,8 @@ title:  "Java Components & Layouts: Labels, Text Fields, and Buttons! Oh My! (Th
 author: Tadukoo
 date:   2020-05-10 14:48:00 -0300
 old_blog: true
+series: "Java Components & Layouts"
+index: 1
 categories: blog
 tags: 
 - Components and Layouts

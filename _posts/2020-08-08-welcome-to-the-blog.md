@@ -2,6 +2,8 @@
 title: "Welcome to the Blog"
 author: Tadukoo
 date:   2020-08-08 19:06:00 -0300
+series: "Blog Updates"
+index: 1
 categories: blog
 tags: 
 - Blog
