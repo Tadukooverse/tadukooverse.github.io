@@ -7,7 +7,7 @@ title: Tags
 {% assign tags = site.tags | sort %}
 
 #### Table of Contents
-{% for tag in tags %}* [{{tag[0]}}](#{{tag[0] | slugify}}) 
+{% for tag in tags %}* [{{tag[0]}}](#{{tag[0] | slugify}}) - {{tag[1].size}} posts
 {% endfor %}
 
 {% for tag in tags %}## {{tag[0]}}
