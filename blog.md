@@ -7,6 +7,7 @@ title: Blog
 
 {% for post in site.posts %}
 ## [{{post.title}}]({{post.url}})
-### by {{post.author}} - {{post.date | date_to_string}}
+{% assign author = site.contributors | where: 'short_name', page.author | first %}
+### by [{{author.short_name}}]({{author.url}}) - {{post.date | date_to_string}}
 {{post.excerpt}}
 {% endfor %}

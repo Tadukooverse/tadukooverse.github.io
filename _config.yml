@@ -4,6 +4,8 @@ collections:
     output: true
   community:
     output: true
+  contributors:
+    output: true
   projects:
     output: true
 
@@ -18,6 +20,11 @@ defaults:
       type: "community"
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "contributors"
+    values:
+      layout: "contributor"
   - scope:
       path: ""
       type: "posts"
