@@ -6,4 +6,12 @@ layout: default
 <p>{{page.date | date_to_string}} - <a href="{{author.url}}">{{author.name}}</a></p>
 <div class="post-content">
     {% if page.old_blog %}{% capture old-blog-notice %}{% include old-blog-notice.md %}{% endcapture %}{{ old-blog-notice | markdownify }}{% endif %}{{content}}
+	<div>{% assign old_tags = page.tags | sort %}
+	{% assign tags = '' | split: '' %}
+	{% for tag in old_tags %}
+	{% capture newTag %}[{{tag}}](/blog/tags.html#{{tag | slugify}}){% endcapture %}
+	{% assign tags = tags | push: newTag %}
+	{% endfor %}
+	Tags: {{tags | join:", " | markdownify}}</div>
+	<br />
 </div>

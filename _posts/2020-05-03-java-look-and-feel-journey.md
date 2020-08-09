@@ -9,7 +9,7 @@ tags:
 - Java
 - Journey
 - Look and Feel
-- programming
+- Programming
 - Tutorial
 comment_issue_id: 31
 ---

@@ -9,7 +9,7 @@ categories: blog
 tags: 
 - Components and Layouts
 - Java
-- programming
+- Programming
 - Tutorial
 comment_issue_id: 35
 ---

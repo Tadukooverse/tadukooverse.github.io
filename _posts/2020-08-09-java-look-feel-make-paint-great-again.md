@@ -1,7 +1,7 @@
 ---
 title:  "Java Look & Feel: Make Paint Great Again"
 author: Tadukoo
-date:   2020-08-09 16:37:00 -0300
+date:   2020-08-09 16:37:00
 series: "Tadukoo Look & Feel Journey"
 index: 8
 categories: blog
@@ -9,7 +9,7 @@ tags:
 - Java
 - Journey
 - Look and Feel
-- programming
+- Programming
 - Tutorial
 comment_issue_id: 42
 ---
