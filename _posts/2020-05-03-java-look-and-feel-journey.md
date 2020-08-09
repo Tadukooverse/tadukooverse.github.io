@@ -13,9 +13,9 @@ tags:
 - Tutorial
 comment_issue_id: 31
 ---
-I've been working on slowly creating my own API from the ground up (as opposed to [before]({% post_url 2015-12-31-the-flaws-of-developing-api-and-engine %}), where I had a functioning program and tried to separate out an API), 
-and I've realized I'm still doing it wrong. I've been creating my own classes for various menu functionality (e.g. Button, Text input, etc.) because I didn't know much about using the default Java Swing components and how to 
-customize the looks of them.
+I've been working on slowly creating my own API from the ground up (as opposed to [before](https://tadukoo.github.io/blog/2015/12/31/the-flaws-of-developing-api-and-engine.html), where I had a functioning program and tried 
+to separate out an API), and I've realized I'm still doing it wrong. I've been creating my own classes for various menu functionality (e.g. Button, Text input, etc.) because I didn't know much about using the default 
+Java Swing components and how to customize the looks of them.
 
 Long story short, for something at work I started to create a program with the default Java components (JTextField, JLabel, etc.) and I learned about Java's Look and Feel. Because of using this, I wanted to customize my own 
 Look and Feel, but in my googling, I haven't found any good tutorials on how to do it. I'm ultimately finding bits and pieces of how to do it, and warnings that it's a massive undertaking. I have a history of wanting to program 
