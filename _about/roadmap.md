@@ -30,40 +30,24 @@ extensions or modifications based on their needs using the open source code.
 #### .github
 [.github](https://github.com/Tadukooverse/.github) is the repository to hold the [Community Health Files](https://docs.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file) for the Tadukooverse organization.
 
-We plan to include the following files (note: some links may not work due to the files not existing yet):
-* [Code of Conduct](/community/CODE_OF_CONDUCT.html)
-* [Contributing Guidelines](/community/CONTRIBUTING.html)
-* [Issue Templates](https://github.com/Tadukooverse/.github/.github/ISSUE_TEMPLATE)
-* [Pull Request Templates](https://github.com/Tadukooverse/.github/.github/PULL_REQUEST_TEMPLATE)
-* [Security Policy](/community/SECURITY.md)
-* [Support Resources](/community/SUPPORT.md)
+Most of this is done now, but the [Contributing Guidelines](/community/CONTRIBUTING.html) could use some changes yet:
+* Add Eclipse Java code style settings
+* Add note about not committing to master and a link to a guide on how we use branches
+  * Guide should exist on this website
+* Add actual links to Tadukoo Engine/Launcher guide and Debugging Guide
+  * Note: These guides should be made on this website
 
 #### tadukooverse.github.io
 [tadukooverse.github.io](https://github.com/Tadukooverse/tadukooverse.github.io) is the repository to hold the GitHub pages website for the Tadukooverse organization.
 
-It'll have the following sections:
-* [About](/about.html) - used for general pages about the Tadukooverse organization
-* [Blog](/blog.html) - used for blogging/updates for the Tadukooverse organization
-* [Community](/community.html) - used to link to the default community pages from the .github repo
-* [Guides](/guides.html) - used for both guides on how to use the software, as well as guides on how to contribute (beyond the contributing guidelines)
-* [Projects](/projects.html) - used for pages about the various projects on Tadukooverse
-
-##### About Section
-* [FAQ](/about/faq.html) - For frequently asked questions
-* **Roadmap** - this page, for current major goals
-
-##### Blog Section
-* TBD (don't have a solid plan on this yet, but I do want to have an updates/history/information section on the website)
-
-##### Community Section
-* Updated via the .github repo
-
 ##### Guides Section
+* Branching Guide - guide on how we use branches on GitHub and don't commit directly to master
 * Debugging Guide - guide on how to debug issues in the software - may need to be multiple guides for specific programs in the future?
 * Tadukoo Engine/Launcher Guide - guide on how to develop against the engine/launcher - and a guide on how to use it?
 * Tadukoo Annotation Processor Guide - guide on how to make an annotation processor using Tadukoo Annotation Processor module
 
 ##### Projects Section
+* **Note**: These projects need more information on them
 * [Tadukoo Engine](/project/TadukooEngine.html)
 * [Tadukoo Util](/project/TadukooUtil.html)
 
