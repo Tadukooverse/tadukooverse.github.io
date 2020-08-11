@@ -31,7 +31,6 @@ extensions or modifications based on their needs using the open source code.
 [.github](https://github.com/Tadukooverse/.github) is the repository to hold the [Community Health Files](https://docs.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file) for the Tadukooverse organization.
 
 Most of this is done now, but the [Contributing Guidelines](/community/CONTRIBUTING.html) could use some changes yet:
-* Add Eclipse Java code style settings
 * Add note about not committing to master and a link to a guide on how we use branches
   * Guide should exist on this website
 * Add actual links to Tadukoo Engine/Launcher guide and Debugging Guide

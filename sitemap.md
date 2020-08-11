@@ -7,6 +7,7 @@ title: Sitemap
 * [About](#about)
 * [Blog](#blog)
 * [Community](#community)
+* [Guides](#guides)
 * [Projects](#projects)
 
 ## About
@@ -20,6 +21,10 @@ There are many blog posts compared to the other types of pages.
 
 ## Community
 {% for community in site.community %}- [{{community.title}}]({{community.url}}) - {{community.blurb}}
+{% endfor %}
+
+## Guides
+{% for guide in site.guides %}- [{{guide.title}}]({{guide.url}}) - {{guide.blurb}}
 {% endfor %}
 
 ## Projects

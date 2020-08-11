@@ -6,6 +6,8 @@ collections:
     output: true
   contributors:
     output: true
+  guides:
+    output: true
   projects:
     output: true
 
@@ -25,6 +27,11 @@ defaults:
       type: "contributors"
     values:
       layout: "contributor"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
   - scope:
       path: ""
       type: "posts"
