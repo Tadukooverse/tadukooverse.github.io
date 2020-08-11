@@ -6,6 +6,8 @@
   link: /blog.html
 - name: Community
   link: /community.html
+- name: Docs
+  link: /docs/
 - name: Projects
   link: /projects.html
 - name: Sitemap
