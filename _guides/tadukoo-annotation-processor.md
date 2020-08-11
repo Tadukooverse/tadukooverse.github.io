@@ -56,3 +56,5 @@ public MyAnnotationProcessor(){
 
 Then when you override processElements, you're given whatever type of elements are dictated by your annotation, and you need to process them. By extending AbstractAnnotationProcessor, you're 
 given access to AnnotationUtil (a protected field defined as annotationUtil), which provides access to methods and constants to make it easier to process your annotations.
+
+To check out what AnnotationUtil can do for you, you can check out the [Javadoc for it](/docs/TadukooUtil/current/com/github/tadukoo/util/annotation/process/AnnotationUtil.html).
