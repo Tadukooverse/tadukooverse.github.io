@@ -1,3 +1,6 @@
 [submodule "community"]
 	path = _community
 	url = https://github.com/Tadukooverse/.github.git
+[submodule "docs"]
+	path = docs
+	url = https://github.com/Tadukooverse/Tadukooverse-Javadocs.git
