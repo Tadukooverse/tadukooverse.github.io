@@ -29,7 +29,7 @@ This annotation is handled by AnnotationProcessorProcessor, which just adds the 
 AbstractAnnotationProcessor should be extended by annotation processors you create. It handles the standard methods and provides an instance of AnnotationUtil to make common 
 functionality easier for processing annotations.
 
-For more information on creating annotation processors using Tadukoo Annotation Processor, check out the Tadukoo Annotation Processor Guide (Coming Soon)
+For more information on creating annotation processors using Tadukoo Annotation Processor, check out the [Tadukoo Annotation Processor Guide](/guides/tadukoo-annotation-processor.html)
 
 ### Tadukoo Database
 Tadukoo Database is used to make interfacing with a MySQL database easier.

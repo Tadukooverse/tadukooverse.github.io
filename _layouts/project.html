@@ -6,3 +6,10 @@ layout: default
 {{page.summary | markdownify}}
 
 {{content}}
+
+<h2>Guides</h2>
+{% assign project_guides = site.guides | where:"project", page.short_name | sort %}
+{% for guide in project_guides %}
+<h3><a href="{{guide.url}}">{{guide.title}}</a></h3>
+{{guide.blurb}}
+{% endfor %}
