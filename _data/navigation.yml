@@ -1,14 +1,14 @@
 - name: Home
   link: /
+- name: Projects
+  link: /projects.html
+- name: Docs
+  link: /docs/
 - name: About
   link: /about.html
 - name: Blog
   link: /blog.html
 - name: Community
   link: /community.html
-- name: Docs
-  link: /docs/
-- name: Projects
-  link: /projects.html
 - name: Sitemap
   link: /sitemap.html
