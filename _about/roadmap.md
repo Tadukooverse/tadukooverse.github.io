@@ -43,7 +43,6 @@ Most of this is done now, but the [Contributing Guidelines](/community/CONTRIBUT
 * Branching Guide - guide on how we use branches on GitHub and don't commit directly to master
 * Debugging Guide - guide on how to debug issues in the software - may need to be multiple guides for specific programs in the future?
 * Tadukoo Engine/Launcher Guide - guide on how to develop against the engine/launcher - and a guide on how to use it?
-* Tadukoo Annotation Processor Guide - guide on how to make an annotation processor using Tadukoo Annotation Processor module
 
 ##### Projects Section
 * **Note**: These projects need more information on them
@@ -67,14 +66,16 @@ I currently plan to move the following projects to Tadukooverse over time (not a
 [Tadukoo Util](/project/TadukooUtil.html) page.
 
 #### First Release: Alpha v.0.1
+**Note**: [Tadukoo Util's project page](/projects/TadukooUtil.html#current-plans) includes more specifics about what needs done.
+
 > **[Main Page/Progress](https://github.com/Tadukoo/TadukooUtil/milestone/1)**
 
 The current plan for Alpha v.0.1 is to complete the following:
-- Write JUnit tests for most (/all?) of the classes
-- Finish Tadukoo Look & Feel
-- Finish Tadukoo Database
-- Finish Tadukoo File Format
-- Create Forms in Tadukoo View (panel/frame used to store information for a pojo/piece of data to be easily converted to database or file format)
+- Complete Tadukoo Database
+- Complete Tadukoo File Format
+- Complete Tadukoo Look & Feel
+- Complete Tadukoo View
+- Javadoc and test most (/all?) of the classes and packages
 
 ### Tadukoo Engine/Launcher
 > **Note**: Tadukoo Engine and Tadukoo Launcher go hand-in-hand. Tadukoo Engine is used as a base for programs made to run in the Tadukoo Launcher. Having a common launcher 

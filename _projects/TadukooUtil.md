@@ -17,6 +17,7 @@ summary: >
 	* [Tadukoo Look & Feel](#tadukoo-look--feel)
 	* [Tadukoo Util](#tadukoo-util)
 	* [Tadukoo View](#tadukoo-view)
+* [Current Plans](#current-plans)
 
 ## Modules
 
@@ -49,3 +50,42 @@ Tadukoo Util provides a collection of useful utilities that don't quite fit into
 ### Tadukoo View
 Tadukoo View provides utilities to make it easier to handle view functionality, such as drawing to the screen and handling images.
 
+## Current Plans
+> **[Main Page/Progress](https://github.com/Tadukoo/TadukooUtil/milestone/1)**
+
+Currently, progress is moving forward on the first release of Tadukoo Util, Alpha v.0.1.
+
+The overall goals are:
+- Complete Tadukoo Database
+- Complete Tadukoo File Format
+- Complete Tadukoo Look & Feel
+- Complete Tadukoo View
+- Javadoc and test most (/all?) of the classes and packages
+
+**Note**: Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util are acceptable in their current code state (but may need Javadoc'd and/or tested yet). It is 
+acceptable to add more to them, as long as they are properly Javadoc'd and tested by release.
+
+### Complete Tadukoo Database
+Tadukoo Database seems to be in a weird state at the moment and needs some planning done on it. The general plan is to make it simple to setup queries that are sanitized.
+
+### Complete Tadukoo File Format
+Tadukoo File Format is in a similar boat with Tadukoo Database, in the sense that it needs some planning done.
+
+### Complete Tadukoo Look & Feel
+Tadukoo Look & Feel has two major packages - the components package and the actual look and feel package.
+
+The Look & Feel package needs to be able to completely replace the Metal Look & Feel, mimicking its functionality with much more customizability.
+
+The Components package is being created to allow for UI components to specify their own colors/shapes/etc. beyond the defaults provided by the Tadukoo Look & Feel's theme. 
+Ideally this should be done through a combination of interfaces and component extensions. The interfaces would allow other users to create their own custom components that 
+use these customizations if they desire.
+
+### Complete Tadukoo View
+To complete Tadukoo View, the following should be done:
+- Create Forms (panel/frame used to store information for a pojo/piece of data to be easily converted to database or file format)
+- Move some more utils from OldTadukooView to the new version
+
+### Javadocing and Testing
+Some of the classes and packages are already Javadoc'd, but ideally all of them would be.
+
+In terms of testing, Tadukoo Lang has most of the tests at the moment, as testing has been neglected for a while in other areas.
