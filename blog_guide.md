@@ -7,6 +7,7 @@ title: Blog Guide
 * [Java API Tutorials](#java-api-tutorials)
 	* [Java Components & Layouts](#java-components--layouts)
 * [Tadukooverse Development](#tadukooverse-development)
+	* [General](#general)
 	* [Tadukoo Look & Feel Journey](#tadukoo-look--feel-journey)
 * [Blog Updates](#blog-updates)
 
@@ -24,6 +25,14 @@ in order to show what the Tadukoo Look & Feel can do.
 
 ## Tadukooverse Development
 Posts about how development is progressing on Tadukooverse projects.
+
+### General
+General Tadukooverse Development posts that don't fall under other categories.
+
+{% assign generalDevPosts = site.posts | where:"series", "General Tadukooverse Development" | sort:"index" %}
+{% for generalDevPost in generalDevPosts %}{{generalDevPost.index}}. [{{generalDevPost.title}}]({{generalDevPost.url}}) - 
+{{generalDevPost.date | date_to_string}}
+{% endfor %}
 
 ### Tadukoo Look & Feel Journey
 {% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}
