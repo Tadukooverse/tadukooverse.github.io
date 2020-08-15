@@ -51,7 +51,7 @@ Tadukoo Util provides a collection of useful utilities that don't quite fit into
 Tadukoo View provides utilities to make it easier to handle view functionality, such as drawing to the screen and handling images.
 
 ## Current Plans
-As part of [The Tadukooverse Master Plan]({% post_url 2020-08-12-the-tadukooverse-master-plan %}), Tadukoo Util has 5 milestones leading up to its v.1.0 release:
+As part of [The Tadukooverse Master Plan]({% post_url 2020-08-14-the-tadukooverse-master-plan %}), Tadukoo Util has 5 milestones leading up to its v.1.0 release:
 - Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util (basically just Javadocing and testing)
 - Alpha v.0.2 - Complete Tadukoo Look & Feel
 - Alpha v.0.3 - Complete Tadukoo View
