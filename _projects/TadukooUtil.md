@@ -60,9 +60,13 @@ As part of [The Tadukooverse Master Plan]({% post_url 2020-08-14-the-tadukoovers
 - Release v.1.0 - Beta v.0.5 + anything else to be added for the Tadukoo Engine/Launcher v.1.0 requirements
 
 ### Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util
+> [GitHub Milestone](https://github.com/Tadukoo/TadukooUtil/milestone/1)
+
 Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util are acceptable in their current code state, but are not fully Javadoc'd and tested yet.
 
 ### Alpha v.0.2 - Complete Tadukoo Look & Feel
+> [GitHub Milestone](https://github.com/Tadukoo/TadukooUtil/milestone/2)
+
 Tadukoo Look & Feel has two major packages - the components package and the actual look and feel package.
 
 The Look & Feel package needs to be able to completely replace the Metal Look & Feel, mimicking its functionality with much more customizability.
@@ -72,14 +76,20 @@ Ideally this should be done through a combination of interfaces and component ex
 use these customizations if they desire.
 
 ### Alpha v.0.3 - Complete Tadukoo View
+> [GitHub Milestone](https://github.com/Tadukoo/TadukooUtil/milestone/3)
+
 To complete Tadukoo View, the following should be done:
 - Create Forms (panel/frame used to store information for a pojo/piece of data to be easily converted to database or file format)
 - Move some more utils from OldTadukooView to the new version
 
 ### Alpha v.0.4 - Complete Tadukoo Database
+> [GitHub Milestone](https://github.com/Tadukoo/TadukooUtil/milestone/4)
+
 Tadukoo Database seems to be in a weird state at the moment and needs some planning done on it. The general plan is to make it simple to setup queries that are sanitized.
 
 ### Beta v.0.5 - Complete Tadukoo File Format
+> [GitHub Milestone](https://github.com/Tadukoo/TadukooUtil/milestone/5)
+
 Tadukoo File Format is in a similar boat with Tadukoo Database, in the sense that it needs some planning done.
 
 ### Release v.1.0

@@ -65,6 +65,7 @@ As part of Alpha v.0.1 of Tadukoo Util, I'll also be transitioning it over to Ta
 - Adding any missing labels
 - Updating the license (Tadukooverse projects should be MIT license and list me (Logan Ferree/Tadukoo) and "other Tadukooverse contributors" in the copyright)
 - Adding proper issues/milestones and cleaning up old ones
+- Updating the Javadocs on this site
 
 Other projects will also be transitioned as part of their first milestone if they've already been started (Tadukoo GitHub does not exist at all yet, so will probably just be created under 
 Tadukooverse from the start).
