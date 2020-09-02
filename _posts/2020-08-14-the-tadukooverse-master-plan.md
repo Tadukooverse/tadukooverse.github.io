@@ -8,7 +8,7 @@ categories: blog
 tags: 
 - Plans
 - Programming
-comment_issue_id: 
+comment_issue_id: 43
 ---
 For a while now, I've just been planning to have the first official release of [Tadukoo Util](/projects/TadukooUtil.html) and [Tadukoo Engine/Launcher](/projects/TadukooEngine.html) be Alpha v.0.1. 
 I've realized that Tadukoo Util has enough plans that a higher version number would make sense, and I'm not really sure what plans I would have for either project beyond the current ones before 
@@ -69,3 +69,34 @@ As part of Alpha v.0.1 of Tadukoo Util, I'll also be transitioning it over to Ta
 
 Other projects will also be transitioned as part of their first milestone if they've already been started (Tadukoo GitHub does not exist at all yet, so will probably just be created under 
 Tadukooverse from the start).
+
+## Progress
+> Last Updated: September 2, 2020 10:13 AM
+* Tadukoo Util - Working on Alpha v.0.1
+* Tadukoo Parsing - Needs Planning
+* Tadukoo Web Services - Needs Planning
+* Tadukoo GitHub - Needs Planning
+* Tadukoo Engine/Launcher - Needs Planning
+
+## Update 9/2/2020
+Tadukoo Util is almost at the Alpha v.0.1 milestone (there's some testing left for the maps package at the moment), so now seems like a good time to clarify (and/or change) some things.
+
+Tadukoo Util and Tadukoo Engine/Launcher will be tied together for release v.1.0 as said before, but the other projects will not have the same requirement. Tadukoo Engine/Launcher will 
+not use the full Tadukoo GitHub project (e.g. why would we need to worry about GitHub issues in the engine/launcher? The main thing we need is the releases on GitHub). So it doesn't 
+make sense to wait for Tadukoo GitHub to be complete to release the engine/launcher. In addition, GitHub uses REST, and so wouldn't need other types of services supported in Tadukoo 
+Web Services. Also GitHub uses JSON, so we wouldn't need the XML support in Tadukoo Parsing. For all 3 projects (Parsing, Web Services, GitHub), we don't need the full release (and 
+it's not planned what the full release of those will look like either). All of those could simply be Alpha v.0.1 when we release the Tadukoo Engine/Launcher, the only requirement is 
+we have all the stuff we need and that it's a stable release (doesn't have to be a v.1.0 release, just stable enough that it's properly tested and works and is supported moving forward). 
+As of right now, I still do not have a solid plan for Tadukoo Engine/Launcher and those 3 projects, but will likely figure it out soon after this Alpha v.0.1 milestone is complete for 
+Tadukoo Util.
+
+Regarding Tadukoo Util, there's the question of publishing it to Maven Central. I have taken steps to be able to do so, but do not plan to until it gets to Beta v.0.5. The reason for this 
+is that while the Annotation Processor, Lang, and Util modules will be good at this milestone, the Look & Feel, View, Database, and File Format modules are not in a good releasable state. 
+Publishing to Maven Central as a release in this state just doesn't feel right. Beta v.0.5 will represent the entire project being in a decent releasable state, though it's currently also 
+equivalent to release v.1.0, which could also be a problem (releasing the same thing as two different versions). We'll have to wait until we get closer to that point before making a firm 
+decision on it. We likely won't have this problem with the Parsing, Web Services, and GitHub projects due to not starting out in a weird place like Tadukoo Util did (I basically threw 
+stuff from various projects into Tadukoo Util and am cleaning them up).
+
+Another note with Tadukoo Util is that the milestone goals are not meant as restrictions, so there can be changes to the modules in later milestones (e.g. adding to the Util module during 
+Alpha v.0.2 or to the View module during Beta v.0.5). I'm saying this because I'll likely add to the Lang and Util modules during several of the milestones moving forward, as those modules 
+are meant to have general useful utilities added to them over time for use in projects.

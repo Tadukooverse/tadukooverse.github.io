@@ -93,4 +93,4 @@ Tadukoo Database seems to be in a weird state at the moment and needs some plann
 Tadukoo File Format is in a similar boat with Tadukoo Database, in the sense that it needs some planning done.
 
 ### Release v.1.0
-Right now there are no plans to add anything after Beta v.0.5, but dependning on Tadukoo Engine/Launcher's v.1.0 requirements, more could be added here.
+Right now there are no plans to add anything after Beta v.0.5, but depending on Tadukoo Engine/Launcher's v.1.0 requirements, more could be added here.
