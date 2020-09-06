@@ -75,7 +75,7 @@ Tadukooverse from the start).
 ## Progress
 > Last Updated: September 5, 2020 8:05 PM
 * [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
-  * {% include text-color.html color="green" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.2 - Complete Tadukoo Look & Feel" %}
   * {% include text-color.html color="red" text="Alpha v.0.3 - Complete Tadukoo View" %}
   * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Database" %}
