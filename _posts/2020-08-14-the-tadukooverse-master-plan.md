@@ -124,3 +124,8 @@ will also need to transfer it to Tadukooverse, prepare the Javadocs, do proper t
 
 For all the projects, I will need to prepare them for use with [{{TadukooEngine.title}}]({{TadukooEngine.url}}) as part of the plan, so each of them will have a milestone for that. For 
 now most of them will be unnamed due to not having solid plans beyond that though.
+
+Tadukoo Util still needs a few changes now that it's over on Tadukooverse. It doesn't have a readme on its project, and it doesn't have proper issues for Alpha v.0.2 and higher. Also, 
+now that it's in more of a proper setup, it needs to follow proper procedures for GitHub branches, issues, etc. in general. For this, I need to make some guides on this website so 
+others can follow the guidelines. I wasn't exactly following everything appropriately up to this point due to the software being in a weird state from the start, but now that it's 
+in an acceptable place, I can and ought to start following proper guidelines (excluding placing the readme, since that should've been there much earlier).

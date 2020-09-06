@@ -14,6 +14,8 @@ summary: 'Tadukoo Engine and Tadukoo Launcher go hand-in-hand. Tadukoo Engine is
   
   Tadukoo Engine provides the proper interfaces that programs should use to allow the launcheer to connect to and load them. In addition, the engine and launcher come with standard 
   libraries from Tadukoo Util by default so they don’t need to be downloaded separately later.'
+version: Alpha v.0.1 SNAPSHOT
+github: https://github.com/Tadukoo/TadukooEngine
 ---
 
 #### Table of Contents
@@ -47,7 +49,7 @@ Currently there are no Mac or Linux installers, because [Tadukoo](/contributors/
 Tadukoo Launcher provides a launcher that shows programs that can be downloaded and/or run and will handle loading library dependencies for the programs.
 
 ## Current Plans
-> **[Main Page/Progress](https://github.com/Tadukoo/TadukooEngine/milestone/1)**
+> **[Main Page/Progress]({{page.github}}/milestone/1)**
 
 Currently, progress is moving forward on the first release of Tadukoo Util, Alpha v.0.1.
 
