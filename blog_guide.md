@@ -8,6 +8,7 @@ title: Blog Guide
 	* [Java Components & Layouts](#java-components--layouts)
 * [Tadukooverse Development](#tadukooverse-development)
 	* [General](#general)
+	* [Releases](#releases)
 	* [Tadukoo Look & Feel Journey](#tadukoo-look--feel-journey)
 * [Blog Updates](#blog-updates)
 
@@ -32,6 +33,14 @@ General Tadukooverse Development posts that don't fall under other categories.
 {% assign generalDevPosts = site.posts | where:"series", "General Tadukooverse Development" | sort:"index" %}
 {% for generalDevPost in generalDevPosts %}{{generalDevPost.index}}. [{{generalDevPost.title}}]({{generalDevPost.url}}) - 
 {{generalDevPost.date | date_to_string}}
+{% endfor %}
+
+### Releases
+Posts about new releases/updates to Tadukooverse projects.
+
+{% assign newsPosts = site.posts | where:"series", "Releases" | sort:"index" %}
+{% for newsPost in newsPosts %}{{newsPost.index}}. [{{newsPost.title}}]({{newsPost.url}}) - 
+{{newsPost.date | date_to_string}}
 {% endfor %}
 
 ### Tadukoo Look & Feel Journey
