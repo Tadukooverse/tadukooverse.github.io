@@ -10,6 +10,8 @@ tags:
 - Programming
 comment_issue_id: 43
 ---
+{% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}
+{% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
 For a while now, I've just been planning to have the first official release of [Tadukoo Util](/projects/TadukooUtil.html) and [Tadukoo Engine/Launcher](/projects/TadukooEngine.html) be Alpha v.0.1. 
 I've realized that Tadukoo Util has enough plans that a higher version number would make sense, and I'm not really sure what plans I would have for either project beyond the current ones before 
 labelling either as "official release 1.0".
@@ -71,12 +73,23 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: September 2, 2020 10:13 AM
-* Tadukoo Util - Working on Alpha v.0.1
-* Tadukoo Parsing - Needs Planning
-* Tadukoo Web Services - Needs Planning
-* Tadukoo GitHub - Needs Planning
-* Tadukoo Engine/Launcher - Needs Planning
+> Last Updated: September 5, 2020 8:05 PM
+* [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
+  * {% include text-color.html color="green" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.2 - Complete Tadukoo Look & Feel" %}
+  * {% include text-color.html color="red" text="Alpha v.0.3 - Complete Tadukoo View" %}
+  * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Database" %}
+  * {% include text-color.html color="red" text="Beta v.0.5 - Complete Tadukoo File Format" %}
+  * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+* Tadukoo Parsing - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo JSON" %}
+  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+* Tadukoo Web Services - {% include text-color.html color="red" text="Needs Planning" %}
+  * {% include text-color.html color="red" text="Unnamed/UnVersioned - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+* Tadukoo GitHub - {% include text-color.html color="red" text="Needs Planning" %}
+  * {% include text-color.html color="red" text="Unnamed/UnVersioned - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+* [{{TadukooEngine.title}}]({{TadukooEngine.url}}) - {% include text-color.html color="red" text="Needs Planning" %}
+  * {% include text-color.html color="red" text="Release v.1.0 - Needs Planning" %}
 
 ## Update 9/2/2020
 Tadukoo Util is almost at the Alpha v.0.1 milestone (there's some testing left for the maps package at the moment), so now seems like a good time to clarify (and/or change) some things.
@@ -100,3 +113,14 @@ stuff from various projects into Tadukoo Util and am cleaning them up).
 Another note with Tadukoo Util is that the milestone goals are not meant as restrictions, so there can be changes to the modules in later milestones (e.g. adding to the Util module during 
 Alpha v.0.2 or to the View module during Beta v.0.5). I'm saying this because I'll likely add to the Lang and Util modules during several of the milestones moving forward, as those modules 
 are meant to have general useful utilities added to them over time for use in projects.
+
+## Update 9/5/2020
+Now that I've released [{{TadukooUtil.title}}]({{TadukooUtil.url}})'s Alpha v.0.1 release on GitHub, let me update this. Note that it will be a release on GitHub, but not on Maven Central. 
+To use it from Maven, you will need to use the snapshots repository at the moment (with version string 0.1-Alpha-SNAPSHOT).
+
+I realized planning Tadukoo Parsing for the master plan is simple. All we need is to finish Tadukoo JSON (the module dealing with parsing to/from JSON), since the GitHub REST API only 
+uses JSON. This will be Alpha v.0.1 of Tadukoo Parsing. Future versions will include more formats, such as XML, etc., but they're not needed for the Engine/Launcher for this plan. I 
+will also need to transfer it to Tadukooverse, prepare the Javadocs, do proper testing, etc. of course, but as for the code itself, it's just the JSON parsing.
+
+For all the projects, I will need to prepare them for use with [{{TadukooEngine.title}}]({{TadukooEngine.url}}) as part of the plan, so each of them will have a milestone for that. For 
+now most of them will be unnamed due to not having solid plans beyond that though.
