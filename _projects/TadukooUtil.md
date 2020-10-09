@@ -66,8 +66,26 @@ As part of [The Tadukooverse Master Plan]({% post_url 2020-08-14-the-tadukoovers
 
 Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util are acceptable in their current code state, but are not fully Javadoc'd and tested yet.
 
-### Alpha v.0.2 - Complete Tadukoo Look & Feel
+### Alpha v.0.2 - Complete Tadukoo View
 > [GitHub Milestone]({{page.github}}/milestone/2)
+
+To complete Tadukoo View, the following should be done:
+- Make it possible for customizations in Tadukoo Look & Feel
+  - Gradient builders to support custom painting
+  - Font package to support custom fonts
+- Create Forms (panel/frame used to store information for a pojo/piece of data to be easily converted to database or file format)
+- Move some more utils from OldTadukooView to the new version
+
+#### Other (More Minor) Changes
+- Some Tadukoo Lang changes
+  - Fix LoggerUtil.createFileLogger to append instead of recreating the file
+  - Create zip and unzip functions in FileUtil
+- Some Tadukoo Util changes
+  - Create EasyLogger to make logging easier
+- Remove .github folder (should've been done in Alpha v.0.1)
+
+### Alpha v.0.3 - Complete Tadukoo Look & Feel
+> [GitHub Milestone]({{page.github}}/milestone/3)
 
 Tadukoo Look & Feel has two major packages - the components package and the actual look and feel package.
 
@@ -77,12 +95,6 @@ The Components package is being created to allow for UI components to specify th
 Ideally this should be done through a combination of interfaces and component extensions. The interfaces would allow other users to create their own custom components that 
 use these customizations if they desire.
 
-### Alpha v.0.3 - Complete Tadukoo View
-> [GitHub Milestone]({{page.github}}/milestone/3)
-
-To complete Tadukoo View, the following should be done:
-- Create Forms (panel/frame used to store information for a pojo/piece of data to be easily converted to database or file format)
-- Move some more utils from OldTadukooView to the new version
 
 ### Alpha v.0.4 - Complete Tadukoo Database
 > [GitHub Milestone]({{page.github}}/milestone/4)

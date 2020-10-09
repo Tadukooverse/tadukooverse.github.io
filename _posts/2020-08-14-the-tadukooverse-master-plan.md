@@ -73,21 +73,23 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: September 5, 2020 8:05 PM
+> Last Updated: October 9, 2020 7:14 PM
 * [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.2 - Complete Tadukoo Look & Feel" %}
-  * {% include text-color.html color="red" text="Alpha v.0.3 - Complete Tadukoo View" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.2 - Complete Tadukoo View" %}
+  * {% include text-color.html color="red" text="Alpha v.0.3 - Complete Tadukoo Look & Feel" %}
   * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Database" %}
   * {% include text-color.html color="red" text="Beta v.0.5 - Complete Tadukoo File Format" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 * Tadukoo Parsing - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo JSON" %}
   * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-* Tadukoo Web Services - {% include text-color.html color="red" text="Needs Planning" %}
-  * {% include text-color.html color="red" text="Unnamed/UnVersioned - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+* Tadukoo Web Services - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo REST" %}
+  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 * Tadukoo GitHub - {% include text-color.html color="red" text="Needs Planning" %}
-  * {% include text-color.html color="red" text="Unnamed/UnVersioned - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+  * {% include text-color.html color="red" text="Alpha v.0.1 - Complete Releases endpoints" %}
+  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 * [{{TadukooEngine.title}}]({{TadukooEngine.url}}) - {% include text-color.html color="red" text="Needs Planning" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Needs Planning" %}
 
@@ -129,3 +131,19 @@ Tadukoo Util still needs a few changes now that it's over on Tadukooverse. It do
 now that it's in more of a proper setup, it needs to follow proper procedures for GitHub branches, issues, etc. in general. For this, I need to make some guides on this website so 
 others can follow the guidelines. I wasn't exactly following everything appropriately up to this point due to the software being in a weird state from the start, but now that it's 
 in an acceptable place, I can and ought to start following proper guidelines (excluding placing the readme, since that should've been there much earlier).
+
+## Update 10/9/2020
+As I've been working on Alpha v.0.2 for the Tadukoo Look & Feel, I've been doing a lot of work on Tadukoo View, and even doing more work on it than my work on the Look & Feel module. 
+I've made Gradient stuff and Font stuff for Tadukoo View, and I'll be doing stuff with Shapes and Borders soon too. So Tadukoo View will be in a pretty good state when those are finished, 
+just potentially needing some cleanup on the classes that already existed in it. At first I was thinking I'd just make it so Alpha v.0.2 counts as the first release for both Tadukoo View 
+and Tadukoo Look & Feel (while maintaining the current milestone goals), but I've realized it makes a lot more sense to just swap the milestone goals. That way, I can release Alpha v.0.2 
+earlier (in theory), and still maintain the idea of making each module have its first release separate (instead of having Tadukoo View be the weird exception).
+
+So Alpha v.0.2 will now include supporting custom Shapes and Borders, creating forms, moving over anything from the Old Tadukoo View that's relevant, and potentially some other utilities. 
+I'll also throw in the custom defaults option for the Tadukoo Theme, so that at least to some extent Tadukoo Look & Feel is usable (though not official yet until Alpha v.0.3 now)
+
+Alpha v.0.3 will now have the current Alpha v.0.2 goals of completing Tadukoo Look & Feel.
+
+As for other projects, I'm going to say that Tadukoo Web Services will have a release for "Tadukoo REST" (supporting general REST services) as its Alpha v.0.1 milestone necessary for the 
+engine stuff. Tadukoo GitHub will have an Alpha v.0.1 of supporting the Releases endpoints of GitHub for use in the engine. Other than that, I don't have a solid plan for those, that's 
+just the main stuff needed to complete the engine/launcher like I plan to at the moment, and plans can change as I get closer to that release.
