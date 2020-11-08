@@ -73,11 +73,11 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: October 9, 2020 7:14 PM
-* [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
+> Last Updated: November 7, 2020 9:23 PM
+* [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.2 - Complete Tadukoo View" %}
-  * {% include text-color.html color="red" text="Alpha v.0.3 - Complete Tadukoo Look & Feel" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo Look & Feel" %}
   * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Database" %}
   * {% include text-color.html color="red" text="Beta v.0.5 - Complete Tadukoo File Format" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
@@ -147,3 +147,10 @@ Alpha v.0.3 will now have the current Alpha v.0.2 goals of completing Tadukoo Lo
 As for other projects, I'm going to say that Tadukoo Web Services will have a release for "Tadukoo REST" (supporting general REST services) as its Alpha v.0.1 milestone necessary for the 
 engine stuff. Tadukoo GitHub will have an Alpha v.0.1 of supporting the Releases endpoints of GitHub for use in the engine. Other than that, I don't have a solid plan for those, that's 
 just the main stuff needed to complete the engine/launcher like I plan to at the moment, and plans can change as I get closer to that release.
+
+## Update 11/7/2020
+[{{TadukooUtil.title}}]({{TadukooUtil.url}}) Alpha v.0.2 is now released, so progress can start on Alpha v.0.3 of it.
+
+Alpha v.0.2 of it also had some changes that impact Tadukoo JSON, so now I can properly release that in the near future (the other Tadukoo Util updates shouldn't impact Tadukoo JSON). 
+I will probably release Tadukoo JSON Alpha v.0.1 before I release Tadukoo Util Alpha v.0.3, since it's probably closer at this point (both have progress due to how I've worked on them). 
+Getting Tadukoo JSON released completes progress I need in order to work on Tadukoo GitHub, and to use Tadukoo Web Services with JSON, so working on it sooner than later would be nice.
