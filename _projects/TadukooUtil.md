@@ -12,13 +12,13 @@ github: https://github.com/Tadukooverse/TadukooUtil
 
 #### Table of Contents
 * [Modules](#modules)
-	* [Tadukoo Annotation Processor](#tadukoo-annotation-processor)
-	* [Tadukoo Database](#tadukoo-database)
-	* [Tadukoo File Format](#tadukoo-file-format)
-	* [Tadukoo Lang](#tadukoo-lang)
-	* [Tadukoo Look & Feel](#tadukoo-look--feel)
-	* [Tadukoo Util](#tadukoo-util)
-	* [Tadukoo View](#tadukoo-view)
+  * [Tadukoo Annotation Processor](#tadukoo-annotation-processor)
+  * [Tadukoo Database](#tadukoo-database)
+  * [Tadukoo File Format](#tadukoo-file-format)
+  * [Tadukoo Lang](#tadukoo-lang)
+  * [Tadukoo Look & Feel](#tadukoo-look--feel)
+  * [Tadukoo Util](#tadukoo-util)
+  * [Tadukoo View](#tadukoo-view)
 * [Current Plans](#current-plans)
 
 ## Modules

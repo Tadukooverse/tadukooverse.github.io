@@ -11,6 +11,7 @@ tags:
 comment_issue_id: 43
 ---
 {% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}
+{% assign TadukooParsing = site.projects | where:"short_name", "TadukooParsing" | first %}
 {% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
 For a while now, I've just been planning to have the first official release of [Tadukoo Util](/projects/TadukooUtil.html) and [Tadukoo Engine/Launcher](/projects/TadukooEngine.html) be Alpha v.0.1. 
 I've realized that Tadukoo Util has enough plans that a higher version number would make sense, and I'm not really sure what plans I would have for either project beyond the current ones before 
@@ -81,7 +82,7 @@ Tadukooverse from the start).
   * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Database" %}
   * {% include text-color.html color="red" text="Beta v.0.5 - Complete Tadukoo File Format" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-* Tadukoo Parsing - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
+* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo JSON" %}
   * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 * Tadukoo Web Services - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
