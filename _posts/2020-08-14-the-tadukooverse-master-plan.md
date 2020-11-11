@@ -74,7 +74,7 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: November 7, 2020 9:23 PM
+> Last Updated: November 10, 2020 8:00 PM
 * [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
@@ -82,15 +82,15 @@ Tadukooverse from the start).
   * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Database" %}
   * {% include text-color.html color="red" text="Beta v.0.5 - Complete Tadukoo File Format" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo JSON" %}
-  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="lime" text="Alpha v.0.1 Released" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Tadukoo JSON - Released November 10, 2020 6:11 PM" %}
+  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
 * Tadukoo Web Services - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo REST" %}
-  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
 * Tadukoo GitHub - {% include text-color.html color="red" text="Needs Planning" %}
   * {% include text-color.html color="red" text="Alpha v.0.1 - Complete Releases endpoints" %}
-  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
 * [{{TadukooEngine.title}}]({{TadukooEngine.url}}) - {% include text-color.html color="red" text="Needs Planning" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Needs Planning" %}
 
@@ -155,3 +155,11 @@ just the main stuff needed to complete the engine/launcher like I plan to at the
 Alpha v.0.2 of it also had some changes that impact Tadukoo JSON, so now I can properly release that in the near future (the other Tadukoo Util updates shouldn't impact Tadukoo JSON). 
 I will probably release Tadukoo JSON Alpha v.0.1 before I release Tadukoo Util Alpha v.0.3, since it's probably closer at this point (both have progress due to how I've worked on them). 
 Getting Tadukoo JSON released completes progress I need in order to work on Tadukoo GitHub, and to use Tadukoo Web Services with JSON, so working on it sooner than later would be nice.
+
+## Update 11/10/2020
+[{{TadukooParsing.title}}]({{TadukooParsing.url}}) Alpha v.0.1 is now released for Tadukoo JSON. Because of this, Tadukoo Web Services will likely be worked on next (potentially with 
+starting work on Tadukoo GitHub finally).
+
+I've noted that the "Prepare for Tadukoo Engine/Launcher" goals for Tadukoo Parsing, Web Services, and GitHub may not be needed. This is noted because it's possible that there will be 
+no changes necessary after their previous releases, and thus we can just use Alpha v.0.1 of each for Tadukoo Engine/Launcher v.1.0 (their versions aren't to be tied to the engine/launcher 
+in any way like Tadukoo Util is).
