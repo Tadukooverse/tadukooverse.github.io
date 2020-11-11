@@ -10,12 +10,12 @@ tags:
 - Programming
 comment_issue_id: 46
 ---
-Tadukoo Util Alpha v.0.2 was [released today](https://github.com/Tadukooverse/TadukooUtil/releases/tag/v.0.2-alpha). It represents the second release of software by Tadukooverse.
+Tadukoo Util Alpha v.0.2 was [released today](https://github.com/Tadukooverse/TadukooUtil/releases/tag/v.0.2-Alpha). It represents the second release of software by Tadukooverse.
 
 Tadukoo Util is a collection of useful utilities for any project. It's released under the MIT license so it's very free for anyone to use for their projects. For more information about 
 Tadukoo Util, check out its [project page](/projects/TadukooUtil.html). For Javadocs for Tadukoo Util, visit [this page](/docs/TadukooUtil/current/index.html).
 
-This release is mainly for the first release of Tadukoo View, but there were change sto Tadukoo Lang and Tadukoo Util as well.
+This release is mainly for the first release of Tadukoo View, but there were changes to Tadukoo Lang and Tadukoo Util as well.
 
 This release represents the second release for Tadukoo Util, and is an official release of the following modules:
 - Tadukoo Annotation Processor - provides @AnnotationProcessor and AnnotationUtil for making Annotations
@@ -34,3 +34,6 @@ The first set of modules will be fully supported, while the second set will not.
 
 Due to some weird things going on with the plan, this version has the version string 0.2-Alpha-SNAPSHOT for the purposes of Maven, and will only be available in the snapshots repository 
 of Maven Central, and not in the official releases repository. Also, this is why the jars themselves have "-SNAPSHOT" in them.
+
+## Update 11/10/2020
+This version is now released on Maven Central using Alpha v.0.2 (without the -SNAPSHOT). It's the same code, but it's now actually on Maven.
