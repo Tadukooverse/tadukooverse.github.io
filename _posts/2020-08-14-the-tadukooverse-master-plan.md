@@ -74,17 +74,19 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: November 10, 2020 8:00 PM
+> Last Updated: December 12, 2020 7:35 PM
 * [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.2.1 - Fixes + Improvements - Released December 12, 2020 7:28 PM" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo Look & Feel" %}
   * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Database" %}
   * {% include text-color.html color="red" text="Beta v.0.5 - Complete Tadukoo File Format" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="lime" text="Alpha v.0.1 Released" %}
+* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Tadukoo JSON - Released November 10, 2020 6:11 PM" %}
-  * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.2 - Complete Tadukoo Java" %}
+  * {% include text-color.html color="red" text="Alpha v.0.3 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
 * Tadukoo Web Services - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo REST" %}
   * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}

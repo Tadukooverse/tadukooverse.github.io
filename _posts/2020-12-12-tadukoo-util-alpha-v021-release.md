@@ -10,7 +10,7 @@ tags:
 - Programming
 comment_issue_id: 48
 ---
-Tadukoo Util Alpha v.0.2.1 was [released today](https://github.com/Tadukooverse/TadukooUtil/releases/tag/v.0.2.1-Alpha).
+Tadukoo Util Alpha v.0.2.1 was [released today](https://github.com/Tadukooverse/TadukooUtil/releases/tag/v.0.2.1-alpha).
 
 Tadukoo Util is a collection of useful utilities for any project. It's released under the MIT license so it's very free for anyone to use for their projects. For more information about 
 Tadukoo Util, check out its [project page](/projects/TadukooUtil.html). For Javadocs for Tadukoo Util, visit [this page](/docs/TadukooUtil/current/index.html).
