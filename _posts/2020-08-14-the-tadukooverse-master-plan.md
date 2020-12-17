@@ -15,6 +15,7 @@ comment_issue_id: 43
 {% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
 {% assign TadukooParsing = site.projects | where:"short_name", "TadukooParsing" | first %}
 {% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
+{% assign TadukooAnnotations = site.projects | where:"short_name", "TadukooAnnotations" | first %}
 For a while now, I've just been planning to have the first official release of [Tadukoo Util](/projects/TadukooUtil.html) and [Tadukoo Engine/Launcher](/projects/TadukooEngine.html) be Alpha v.0.1. 
 I've realized that Tadukoo Util has enough plans that a higher version number would make sense, and I'm not really sure what plans I would have for either project beyond the current ones before 
 labelling either as "official release 1.0".
@@ -187,7 +188,7 @@ be like other libraries, where you can easily handle dependencies for the stuff.
 Tadukoo Annotations probably won't be touched again as part of this "master plan", because it was meant more for after the official release of the engine anyway, as a way of doing 
 stuff for backwards compatibility.
 
-[{{TadukooDatabse.title}}]({{TadukooDatabase.url}}) is a new project that contains the old Tadukoo Database module, now called Tadukoo MySQL. The plan is to still finish this module 
+[{{TadukooDatabase.title}}]({{TadukooDatabase.url}}) is a new project that contains the old Tadukoo Database module, now called Tadukoo MySQL. The plan is to still finish this module 
 for the engine, for programs that will use MySQL databases. There are currently no other plans for it, but that could change by release of the engine, of course.
 
 [{{TadukooParsing.title}}]({{TadukooParsing.url}}) already existed, but now it has Tadukoo File Format, which still needs completed for the engine. Also, Tadukoo Java got a partial 

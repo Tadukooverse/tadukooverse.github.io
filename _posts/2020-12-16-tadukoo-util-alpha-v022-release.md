@@ -14,8 +14,8 @@ comment_issue_id: 49
 #### Table of Contents
 * [Tadukoo Util](#tadukoo-util)
 * [Tadukoo Annotations](#tadukoo-annotations)
-* [Tadukoo Database)(#tadukoo-database)
-* [Tadukoo Parsing)(#tadukoo-parsing)
+* [Tadukoo Database](#tadukoo-database)
+* [Tadukoo Parsing](#tadukoo-parsing)
 * [Tadukoo View](#tadukoo-view)
 
 ## Tadukoo Util
