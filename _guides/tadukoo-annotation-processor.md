@@ -1,7 +1,7 @@
 ---
 title: Tadukoo Annotation Processor Guide
 blurb: How to make Annotation Processors using Tadukoo Annotation Processor
-project: TadukooUtil
+project: TadukooAnnotations
 ---
 If you make an annotation processor, Tadukoo Annotation Processor (part of [Tadukoo Util](/projects/TadukooUtil.html)) will be helpful, providing the framework for the annotation processor.
 

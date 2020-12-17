@@ -11,6 +11,8 @@ tags:
 comment_issue_id: 43
 ---
 {% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}
+{% assign TadukooView = site.projects | where:"short_name", "TadukooView" | first %}
+{% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
 {% assign TadukooParsing = site.projects | where:"short_name", "TadukooParsing" | first %}
 {% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
 For a while now, I've just been planning to have the first official release of [Tadukoo Util](/projects/TadukooUtil.html) and [Tadukoo Engine/Launcher](/projects/TadukooEngine.html) be Alpha v.0.1. 
@@ -74,19 +76,28 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: December 12, 2020 7:35 PM
-* [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
+> Last Updated: December 16, 2020 9:07 PM
+* [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="red" text="Waiting on Engine Plans" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2.1 - Fixes + Improvements - Released December 12, 2020 7:28 PM" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo Look & Feel" %}
-  * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Database" %}
-  * {% include text-color.html color="red" text="Beta v.0.5 - Complete Tadukoo File Format" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.2.2 - Reorganization - Released December 13, 2020 8:39 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.3 - More Tadukoo Functions" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
+* [{{TadukooView.title}}]({{TadukooView.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.2.2 - Moved from Tadukoo Util - Released December 13, 2020 8:48 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo Look & Feel" %}
+  * {% include text-color.html color="red" text="Alpha v.0.4 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
+* [{{TadukooDatabase.title}}]({{TadukooDatabase.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.2.2 - Moved from Tadukoo Util - Released December 13, 2020 8:56 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo MySQL" %}
+  * {% include text-color.html color="red" text="Alpha v.0.4 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
+* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Tadukoo JSON - Released November 10, 2020 6:11 PM" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.2 - Complete Tadukoo Java" %}
-  * {% include text-color.html color="red" text="Alpha v.0.3 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.2.2 - Moved Tadukoo File Format Over + Other Minor Changes - Released December 13, 2020 9:18 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo Java" %}
+  * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo File Format" %}
+  * {% include text-color.html color="red" text="Beta v.0.5 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
 * Tadukoo Web Services - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo REST" %}
   * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
@@ -165,3 +176,23 @@ starting work on Tadukoo GitHub finally).
 I've noted that the "Prepare for Tadukoo Engine/Launcher" goals for Tadukoo Parsing, Web Services, and GitHub may not be needed. This is noted because it's possible that there will be 
 no changes necessary after their previous releases, and thus we can just use Alpha v.0.1 of each for Tadukoo Engine/Launcher v.1.0 (their versions aren't to be tied to the engine/launcher 
 in any way like Tadukoo Util is).
+
+## Update 12/16/2020
+I released Alpha v.0.2.2 of [{{TadukooUtil.title}}]({{TadukooUtil.url}}) a few days ago, which also includes splitting pieces of it into different projects, some of which are completely 
+new projects, some already existed. Basically I decided that Tadukoo Util should only be the most basic stuff that actually every program would use, so not every program would use a 
+database, or even have a GUI (there could be command line programs that use Tadukoo Util or whatever). The Engine/Launcher will still include most of the stuff by default, or it will 
+be like other libraries, where you can easily handle dependencies for the stuff. For Tadukoo Util itself, there's a new release planned (Alpha v.0.3) to add more functional interfaces.
+
+[{{TadukooAnnotations.title}}]({{TadukooAnnotations.url}}) is a new project that contains Tadukoo Annotation Processor and the @ShouldBeFinal annotation that was in Tadukoo Util. 
+Tadukoo Annotations probably won't be touched again as part of this "master plan", because it was meant more for after the official release of the engine anyway, as a way of doing 
+stuff for backwards compatibility.
+
+[{{TadukooDatabse.title}}]({{TadukooDatabase.url}}) is a new project that contains the old Tadukoo Database module, now called Tadukoo MySQL. The plan is to still finish this module 
+for the engine, for programs that will use MySQL databases. There are currently no other plans for it, but that could change by release of the engine, of course.
+
+[{{TadukooParsing.title}}]({{TadukooParsing.url}}) already existed, but now it has Tadukoo File Format, which still needs completed for the engine. Also, Tadukoo Java got a partial 
+release due to being present when I moved Tadukoo File Format over. Tadukoo Java will probably also be completed for the engine's official release.
+
+[{{TadukooView.title}}]({{TadukooView.url}}) is a new project that contains the old Tadukoo Look & Feel and Tadukoo View modules from Tadukoo Util. Tadukoo View was split into 3 
+modules - Tadukoo View, Tadukoo Components, and Tadukoo Form. Tadukoo Look & Feel still needs completed for the engine, and there will likely be more changes in this project in 
+preparation for the engine, as we need a way to switch between forms.
