@@ -83,7 +83,7 @@ Tadukooverse from the start).
   * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2.1 - Fixes + Improvements - Released December 12, 2020 7:28 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2.2 - Reorganization - Released December 13, 2020 8:39 PM" %}
-  * {% include text-color.html color="lime" text="Alpha v.0.3 - More Tadukoo Functions" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.3 - More Tadukoo Functions - Released December 19, 2020 7:47 PM" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 * [{{TadukooView.title}}]({{TadukooView.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2.2 - Moved from Tadukoo Util - Released December 13, 2020 8:48 PM" %}

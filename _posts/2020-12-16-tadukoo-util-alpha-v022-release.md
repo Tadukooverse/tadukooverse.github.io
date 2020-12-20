@@ -39,7 +39,7 @@ For a summary of the moved modules:
 - Tadukoo View is now Tadukoo View, Tadukoo Components, and Tadukoo Form and is in Tadukoo View
 
 ## Tadukoo Annotations
-Tadukoo Annotations Alpha v.0.2.2 was [released a few days ago](https://github.com/Tadukooverse/TadukooAnnotations/releases/tag/0.2.2-Alpha)
+Tadukoo Annotations Alpha v.0.2.2 was [released a few days ago](https://github.com/Tadukooverse/TadukooAnnotations/releases/tag/v.0.2.2-Alpha)
 
 Tadukoo Annotations is a collection of annotations and utilities for creating annotations easier. For more information about Tadukoo Annotations, check out its [project page](/projects/TadukooAnnotations.html). 
 For Javadocs for Tadukoo Annotations, visit [this page](/docs/TadukooAnnotations/current/index.html).
@@ -51,7 +51,7 @@ The code present in this release is the same as was in Tadukoo Util in Alpha v.0
 Tadukoo Annotations contains @ShouldBeFinal, which came from Tadukoo Util.
 
 ## Tadukoo Database
-Tadukoo Database Alpha v.0.2.2 was [released a few days ago](https://github.com/Tadukooverse/TadukooDatabase/releases/tag/0.2.2-Alpha)
+Tadukoo Database Alpha v.0.2.2 was [released a few days ago](https://github.com/Tadukooverse/TadukooDatabase/releases/tag/v.0.2.2-Alpha)
 
 Tadukoo Database is a collection of utilities used for interacting with databases. For more information about Tadukoo Database, check out its [project page](/projects/TadukooDatabase.html). For 
 Javadocs for Tadukoo Database, visit [this page](/docs/TadukooDatabase/current/index.html).
@@ -60,7 +60,7 @@ This release is just the Tadukoo Database module from Tadukoo Util Alpha v.0.2.1
 - Tadukoo MySQL - used for interacting with a MySQL database
 
 ## Tadukoo Parsing
-Tadukoo Parsing Alpha v.0.2.2 was [released a few days ago](https://github.com/Tadukooverse/TadukooParsing/releases/tag/0.2.2-Alpha)
+Tadukoo Parsing Alpha v.0.2.2 was [released a few days ago](https://github.com/Tadukooverse/TadukooParsing/releases/tag/v.0.2.2-Alpha)
 
 Tadukoo Parsing is a collection of useful utilities for parsing different formats. It's released under the MIT license so it's very free for anyone to use for their projects. For more information about 
 Tadukoo Parsing, check out its [project page](/projects/TadukooParsing.html). For Javadocs for Tadukoo Parsing, visit [this page](/docs/TadukooParsing/current/index.html).
@@ -77,7 +77,7 @@ Tadukoo File Format is the same code as was present in Alpha v.0.2.1 of Tadukoo 
 Tadukoo Java is new code, but was not really complete yet and was just released due to releasing Tadukoo File Format here.
 
 ## Tadukoo View
-Tadukoo View Alpha v.0.2.2 was [released a few days ago](https://github.com/Tadukooverse/TadukooView/releases/tag/0.2.2-Alpha)
+Tadukoo View Alpha v.0.2.2 was [released a few days ago](https://github.com/Tadukooverse/TadukooView/releases/tag/v.0.2.2-Alpha)
 
 Tadukoo View is a collection of view utilities. It's released under the MIT license so it's very free for anyone to use for their projects. For more information about 
 Tadukoo View, check out its [project page](/projects/TadukooView.html). For Javadocs for Tadukoo View, visit [this page](/docs/TadukooView/current/index.html).
