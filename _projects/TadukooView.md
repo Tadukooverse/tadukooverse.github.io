@@ -3,7 +3,7 @@ short_name: TadukooView
 title: Tadukoo View
 blurb: Tadukoo View is a collection of view utilities.
 summary: Tadukoo View is a collection of view utilities.
-version: Alpha v.0.2.2
+version: Alpha v.0.3
 github: https://github.com/Tadukooverse/TadukooView
 ---
 
@@ -32,4 +32,4 @@ screen and handling images.
 
 ## Current Plans
 As part of [The Tadukooverse Master Plan]({% post_url 2020-08-14-the-tadukooverse-master-plan %}), Tadukoo View has 1 upcoming milestone leading up to Tadukoo Engine's release:
-* Alpha v.0.3 - Complete Tadukoo Look & Feel
+* Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components
