@@ -14,6 +14,7 @@ comment_issue_id: 43
 {% assign TadukooView = site.projects | where:"short_name", "TadukooView" | first %}
 {% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
 {% assign TadukooParsing = site.projects | where:"short_name", "TadukooParsing" | first %}
+{% assign TadukooWebServices = site.projects | where:"short_name", "TadukooWebServices" | first %}
 {% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
 {% assign TadukooAnnotations = site.projects | where:"short_name", "TadukooAnnotations" | first %}
 For a while now, I've just been planning to have the first official release of [Tadukoo Util](/projects/TadukooUtil.html) and [Tadukoo Engine/Launcher](/projects/TadukooEngine.html) be Alpha v.0.1. 
@@ -77,7 +78,7 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: February 6, 2021 6:58 PM
+> Last Updated: February 6, 2021 9:30 PM
 * [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="red" text="Waiting on Engine Plans" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
@@ -103,8 +104,8 @@ Tadukooverse from the start).
   * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo Java" %}
   * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo File Format" %}
   * {% include text-color.html color="red" text="Beta v.0.5 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
-* Tadukoo Web Services - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Tadukoo REST" %}
+* [{{TadukooWebServices.title}}]({{TadukooWebServices.url}}) - {% include text-color.html color="red" text="Waiting on Engine Plans - May be Done" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Tadukoo REST - Released February 6, 2021 9:26 PM" %}
   * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
 * Tadukoo GitHub - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Get Releases endpoints" %}
