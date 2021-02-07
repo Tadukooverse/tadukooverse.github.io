@@ -8,7 +8,7 @@ categories: blog
 tags: 
 - News
 - Programming
-comment_issue_id: 
+comment_issue_id: 53
 ---
 Tadukoo View Alpha v.0.3.1 was [released today](https://github.com/Tadukooverse/TadukooView/releases/tag/v.0.3.1-Alpha).
 

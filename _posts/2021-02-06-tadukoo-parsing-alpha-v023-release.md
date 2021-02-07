@@ -8,7 +8,7 @@ categories: blog
 tags: 
 - News
 - Programming
-comment_issue_id: 
+comment_issue_id: 54
 ---
 Tadukoo Parsing Alpha v.0.2.3 was [released today](https://github.com/Tadukooverse/TadukooParsing/releases/tag/v.0.2.3-Alpha).
 

@@ -8,7 +8,7 @@ categories: blog
 tags: 
 - News
 - Programming
-comment_issue_id: 
+comment_issue_id: 52
 ---
 Tadukoo Util Alpha v.0.3.1 was [released today](https://github.com/Tadukooverse/TadukooUtil/releases/tag/v.0.3.1-Alpha).
 
