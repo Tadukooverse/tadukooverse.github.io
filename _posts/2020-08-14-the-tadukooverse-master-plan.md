@@ -15,6 +15,7 @@ comment_issue_id: 43
 {% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
 {% assign TadukooParsing = site.projects | where:"short_name", "TadukooParsing" | first %}
 {% assign TadukooWebServices = site.projects | where:"short_name", "TadukooWebServices" | first %}
+{% assign TadukooGitHub = site.projects | where:"short_name", "TadukooGitHub" | first %}
 {% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
 {% assign TadukooAnnotations = site.projects | where:"short_name", "TadukooAnnotations" | first %}
 For a while now, I've just been planning to have the first official release of [Tadukoo Util](/projects/TadukooUtil.html) and [Tadukoo Engine/Launcher](/projects/TadukooEngine.html) be Alpha v.0.1. 
@@ -107,8 +108,8 @@ Tadukooverse from the start).
 * [{{TadukooWebServices.title}}]({{TadukooWebServices.url}}) - {% include text-color.html color="red" text="Waiting on Engine Plans - May be Done" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Tadukoo REST - Released February 6, 2021 9:26 PM" %}
   * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
-* Tadukoo GitHub - {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.1 - Complete Get Releases endpoints" %}
+* [{{TadukooGitHub.title}}]({{TadukooGitHub.url}}) - {% include text-color.html color="red" text="Waiting on Engine Plans - May be Done" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Get Releases endpoints - Released February 6, 2021 10:22 PM" %}
   * {% include text-color.html color="red" text="Alpha v.0.2 - Prepare for Tadukoo Engine/Launcher v.1.0 - may not be needed" %}
 * [{{TadukooEngine.title}}]({{TadukooEngine.url}}) - {% include text-color.html color="red" text="Needs Planning" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Needs Planning" %}
