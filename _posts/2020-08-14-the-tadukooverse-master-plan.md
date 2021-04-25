@@ -79,8 +79,8 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: April 17, 2021 9:23 PM
-* [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="red" text="Waiting on future plans" %}
+> Last Updated: April 24, 2021 11:00 PM
+* [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Beta v.0.5" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2.1 - Fixes + Improvements - Released December 12, 2020 7:28 PM" %}
@@ -88,6 +88,7 @@ Tadukooverse from the start).
   * {% include text-color.html color="lime" text="Alpha v.0.3 - More Tadukoo Functions - Released December 19, 2020 7:47 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.3.1 - Character Util and More String Utils - Released February 6, 2021 5:29 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.4 - Dictionary and Java 16 - Released April 17, 2021 9:22 PM" %}
+  * {% include text-color.html color="yellow" text="Beta v.0.5 - ByteUtil and Other Changes" %}
   * {% include text-color.html color="red" text="Others TBA" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 * [{{TadukooView.title}}]({{TadukooView.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3.2" %}
@@ -103,12 +104,12 @@ Tadukooverse from the start).
   * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo MySQL" %}
   * {% include text-color.html color="red" text="Others TBA" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
+* [{{TadukooParsing.title}}]({{TadukooParsing.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Tadukoo JSON - Released November 10, 2020 6:11 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2.2 - Moved Tadukoo File Format Over + Other Minor Changes - Released December 13, 2020 9:18 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2.3 - Updated Tadukoo Util to Alpha v.0.3.1 + Other Minor Changes - Released February 6, 2021 6:43 PM" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.3 - Complete Tadukoo File Format" %}
-  * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Tadukoo Java" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.3 - Complete Tadukoo File Format - Released April 24, 2021 11:00 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.4 - Complete Tadukoo Java" %}
   * {% include text-color.html color="red" text="Others TBA" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 * [{{TadukooWebServices.title}}]({{TadukooWebServices.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.1.1" %}
