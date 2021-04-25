@@ -3,7 +3,7 @@ title:  "Tadukoo Util Alpha v.0.4 Release"
 author: Tadukoo
 date:   2021-04-17 21:16
 series: "Releases"
-index: 11
+index: 13
 categories: blog
 tags: 
 - News

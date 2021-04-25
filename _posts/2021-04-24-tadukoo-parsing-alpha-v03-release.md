@@ -3,7 +3,7 @@ title:  "Tadukoo Parsing Alpha v.0.3 Release"
 author: Tadukoo
 date:   2021-04-24 22:53
 series: "Releases"
-index: 12
+index: 14
 categories: blog
 tags: 
 - News
