@@ -91,12 +91,12 @@ Tadukooverse from the start).
   * {% include text-color.html color="yellow" text="Beta v.0.5 - ByteUtil and Other Changes" %}
   * {% include text-color.html color="red" text="Others TBA" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-* [{{TadukooView.title}}]({{TadukooView.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3.2" %}
+* [{{TadukooView.title}}]({{TadukooView.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2.2 - Moved from Tadukoo Util - Released December 13, 2020 8:48 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.3 - Complete Button + Label Customizations - Released January 17, 2021 3:29 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.3.1 - Update to Tadukoo Util Alpha v.0.3.1 - Released February 6, 2021 5:50 PM" %}
-  * {% include text-color.html color="yellow" text="Alpha v.0.3.2 - Update to Tadukoo Util Alpha v.0.4 (and some changes)" %}
-  * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.3.2 - Update to Tadukoo Util Alpha v.0.4 (and some changes) - April 25, 2021 2:20 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components" %}
   * {% include text-color.html color="red" text="Others TBA" %}
   * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 * [{{TadukooDatabase.title}}]({{TadukooDatabase.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
