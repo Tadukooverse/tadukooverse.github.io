@@ -79,7 +79,11 @@ Other projects will also be transitioned as part of their first milestone if the
 Tadukooverse from the start).
 
 ## Progress
-> Last Updated: May 4, 2021 9:55 PM
+> Last Updated: May 30, 2021 4:45 PM
+* [[{{TadukooMaven.title}}]({{TadukooMaven.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.1 - Tadukoo Maven Base POM and Library POM - Released May 28, 2021 6:56 PM" %}
+  * {% include text-color.html color="lime" text="Alpha v.0.2 - Tadukoo Maven Parsing, Web Service, and View POMs - Released May 29, 2021 7:47 PM" %}
+  * {% include text-color.html color="yellow" text="Alpha v.0.3 - Tadukoo Maven Program POM" %}
 * [{{TadukooUtil.title}}]({{TadukooUtil.url}}) - {% include text-color.html color="yellow" text="Working on Beta v.0.5" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
