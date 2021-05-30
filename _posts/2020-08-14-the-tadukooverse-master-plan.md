@@ -10,6 +10,7 @@ tags:
 - Programming
 comment_issue_id: 43
 ---
+{% assign TadukooMaven = site.projects | where:"short_name", "TadukooMaven" | first %}
 {% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}
 {% assign TadukooView = site.projects | where:"short_name", "TadukooView" | first %}
 {% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
@@ -80,7 +81,7 @@ Tadukooverse from the start).
 
 ## Progress
 > Last Updated: May 30, 2021 4:45 PM
-* [[{{TadukooMaven.title}}]({{TadukooMaven.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
+* [{{TadukooMaven.title}}]({{TadukooMaven.url}}) - {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
   * {% include text-color.html color="lime" text="Alpha v.0.1 - Tadukoo Maven Base POM and Library POM - Released May 28, 2021 6:56 PM" %}
   * {% include text-color.html color="lime" text="Alpha v.0.2 - Tadukoo Maven Parsing, Web Service, and View POMs - Released May 29, 2021 7:47 PM" %}
   * {% include text-color.html color="yellow" text="Alpha v.0.3 - Tadukoo Maven Program POM" %}
