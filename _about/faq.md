@@ -18,17 +18,15 @@ Yes! We have a [Discord server](https://discord.gg/cWzhbU7) you're free to join 
 Check out our [Contributing Guidelines](/community/CONTRIBUTING.html), which provide the basics along with links to more detailed guides 
 as needed.
 
-### Why Do You Use Java 14?
-We're using Java 14 as part of a misunderstanding on Tadukoo's part. When he learned about the new Java release schedule, he mistook the 
+### Why Do You Use Java 14/15/16?
+We were using Java 14 as part of a misunderstanding on Tadukoo's part. When he learned about the new Java release schedule, he mistook the 
 long term support (LTS) release schedule of "every 3 *years*" as "every 3 *versions*". Every 3 versions would mean Java 8, 11, and 14 are 
 all under LTS, but every 3 years means Java 8, 11, and 17 are the real LTS releases.
 
-At this point, we're in deep enough into Java 14 (and quite like some of the changes), so we'll be sticking with it for now. When Java 15 and 
-16 come out, we'll consider updating to those versions, and when 17 comes out, we will almost certainly update to it, since it's a proper LTS 
-release.
-
-The eventual plan will probably be to try to maintain releases for each of the active Java LTS releases to allow the most people to use 
-our projects, but for now we only support Java 14.
+At that point, we were in deep enough into Java 14 (and quite liked some of the changes), so we stuck with it. When Java 15 and 
+16 came out, we updated to those versions, and when 17 comes out, we will certainly update to it, since it's a proper LTS release.
+At that point, we'll likely stick to Java 17 at least until the next LTS release. With the next LTS release, we may update to it 
+outright, or we may maintain versions of our projects for both Java 17 and the new LTS release.
 
 ### Why is Everything Named Tadukoo X?
 Everything that's named "Tadukoo X" or "Tadukooverse X" should be seen as a working title used for convenience. Tadukoo is the screen name 
