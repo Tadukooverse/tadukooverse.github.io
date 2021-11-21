@@ -16,11 +16,12 @@ summary: The current plans for Tadukooverse projects outside of the master plan.
   * [{{TadukooJUnit.title}}](#{{TadukooJUnit.title | slugify}})
 
 ## Progress
-> Last Updated: July 10, 2021 8:45 PM
+> Last Updated: November 20, 2021 2:30 PM
 
 ### [{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}})
 > {%include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
 * {% include text-color.html color="lime" text="Alpha v.0.3.1 - Moved from Tadukoo Parsing - Released July 10, 2021 8:45 PM" %}
+* {% include text-color.html color="lime" text="Alpha v.0.3.2 - Java 17 - Released November 19, 2021 10:39 PM" %}
 * {% include text-color.html color="red" text="Others TBA" %}
 
 ### [{{TadukooDatabase.title}}]({{TadukooDatabase.url}})
@@ -32,4 +33,5 @@ summary: The current plans for Tadukooverse projects outside of the master plan.
 ### [{{TadukooJUnit.title}}]({{TadukooJUnit.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
 * {% include text-color.html color="lime" text="Alpha v.0.1 - The Basics - Released July 5, 2021 7:44 PM" %}
+* {% include text-color.html color="lime" text="Alpha v.0.1.1 - Java 17 - Released November 19, 2021 9:59 PM" %}
 * {% include text-color.html color="red" text="Others TBA" %}
