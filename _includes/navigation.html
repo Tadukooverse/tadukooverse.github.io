@@ -1,4 +1,5 @@
 <nav>
+  <ul>
   {% for item in site.data.navigation %}
 	<li class="fork">
 		<a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
@@ -6,4 +7,5 @@
 		</a>
 	</li>
   {% endfor %}
+  </ul>
 </nav>
