@@ -28,7 +28,7 @@ Tadukoo Lang provides common utility functions along with tuples.
 Tadukoo Util provides a collection of useful utilities.
 
 ## Current Plans
-As part of [The Tadukooverse Master Plan]({% post_url 2020-08-14-the-tadukooverse-master-plan %}), Tadukoo Util has 5 milestones leading up to its v.1.0 release:
+As part of [The Tadukooverse Master Plan](/about/Tadukooverse-Master-Plan.html), Tadukoo Util has 5 milestones leading up to its v.1.0 release:
 - Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util (basically just Javadocing and testing)
 - Alpha v.0.2 - Complete Tadukoo Look & Feel
 - Alpha v.0.3 - Complete Tadukoo View

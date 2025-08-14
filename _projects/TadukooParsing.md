@@ -27,6 +27,6 @@ Tadukoo JSON is a library for parsing JSON. It uses JSONConverter to parse JSON 
 keys in the object.
 
 ## Current Plans
-As part of [The Tadukooverse Master Plan]({% post_url 2020-08-14-the-tadukooverse-master-plan %}), Tadukoo Parsing has 2 milestones leading up to Tadukoo Engine's release:
+As part of [The Tadukooverse Master Plan](/about/Tadukooverse-Master-Plan.html), Tadukoo Parsing has 2 milestones leading up to Tadukoo Engine's release:
 - Alpha v.0.1 - Complete Tadukoo JSON
 - Alpha v.0.2 - Anything else needed for Tadukoo Engine's first release

@@ -18,6 +18,6 @@ github: https://github.com/Tadukooverse/TadukooGitHub
 Tadukoo GitHub is used to interact with GitHub's REST API.
 
 ## Current Plans
-As part of [The Tadukooverse Master Plan]({% post_url 2020-08-14-the-tadukooverse-master-plan %}), Tadukoo GitHub has 2 milestones leading up to Tadukoo Engine's release:
+As part of [The Tadukooverse Master Plan](/about/Tadukooverse-Master-Plan.html), Tadukoo GitHub has 2 milestones leading up to Tadukoo Engine's release:
 - Alpha v.0.1 - Complete Get Releases endpoints
 - Alpha v.0.2 - Anything else needed for Tadukoo Engine's first release

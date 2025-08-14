@@ -31,5 +31,5 @@ Tadukoo View provides general utilities to make it easier to handle view functio
 screen and handling images.
 
 ## Current Plans
-As part of [The Tadukooverse Master Plan]({% post_url 2020-08-14-the-tadukooverse-master-plan %}), Tadukoo View has 1 upcoming milestone leading up to Tadukoo Engine's release:
+As part of [The Tadukooverse Master Plan](/about/Tadukooverse-Master-Plan.html), Tadukoo View has 1 upcoming milestone leading up to Tadukoo Engine's release:
 * Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components

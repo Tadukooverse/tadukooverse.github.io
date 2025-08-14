@@ -2,15 +2,15 @@
   link: /
 - name: Projects
   link: /projects.html
-- name: Docs
-  link: /docs/
 - name: Guides
   link: /guides.html
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
+- name: Docs
+  link: /docs/
 - name: Community
   link: /community.html
+- name: Blog
+  link: https://tadukooverse.blogspot.com
+- name: About
+  link: /about.html
 - name: Sitemap
   link: /sitemap.html
