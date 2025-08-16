@@ -1,5 +1,3 @@
-- name: Home
-  link: /
 - name: Projects
   link: /projects.html
 - name: Guides
@@ -11,6 +9,8 @@
 - name: Blog
   link: https://tadukooverse.blogspot.com
 - name: About
-  link: /about.html
+  link: /
 - name: Sitemap
   link: /sitemap.html
+- name: GitHub
+  link: https://github.com/Tadukooverse
