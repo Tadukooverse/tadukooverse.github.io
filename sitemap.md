@@ -1,16 +1,6 @@
 ---
 title: Sitemap
 ---
-# Sitemap
-
-#### Table of Contents
-* [About](#about)
-* [Community](#community)
-* [Guides](#guides)
-	* [Tadukooverse Project Guides](#tadukooverse-project-guides)
-	* [Developer Guides](#developer-guides)
-* [Projects](#projects)
-
 ## About
 {% for about in site.about %}- [{{about.title}}]({{about.url}}) - {{about.blurb}} 
 {% endfor %}

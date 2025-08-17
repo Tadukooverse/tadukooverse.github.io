@@ -1,14 +1,6 @@
 ---
 title: Guides
 ---
-# Guides
-
-#### Table of Contents
-* [Tadukooverse Project Guides](#tadukooverse-project-guides)
-{% for project in site.projects %}	* [{{project.title}} Guides](#{{project.title | slugify}}-guides)
-{% endfor %}
-* [Developer Guides](#developer-guides)
-
 ## Tadukooverse Project Guides
 Guides on how to use the various [Tadukooverse projects](/projects.html)
 

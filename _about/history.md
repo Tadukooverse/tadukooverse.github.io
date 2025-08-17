@@ -3,8 +3,6 @@ title: History
 blurb: History of how Tadukooverse started
 summary: The history of the Tadukooverse organization and how it started
 ---
-# History
-
 ## KBWCO to Tadukoo Util
 [Tadukoo](/contributors/Tadukoo.html) started working on a computer version of 1000 Blank White Cards (which is a story for another time to be put on his own personal blog). That project started as early as 
 2016, and he worked on it on and off over the years. Because of working on it only a little at a time, and being in college learning better practices, the codebase for it got chaotic. There were some good 

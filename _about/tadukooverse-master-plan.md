@@ -1,48 +1,19 @@
 ---
 title: Tadukooverse Master Plan
+note: "Note: If you don't see a project on this page, it should be in the [Other Project Plans](/about/other-project-plans.html)"
 blurb: The current master plan for Tadukooverse
 summary: The current master plan for Tadukooverse. This contains the main plans for Tadukooverse projects.
 ---
 {% assign TadukooAnnotations = site.projects | where:"short_name", "TadukooAnnotations" | first %}
-{% assign TadukooCodeParsing = site.projects | where:"short_name", "TadukooCodeParsing" | first %}
 {% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
 {% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
 {% assign TadukooGitHub = site.projects | where:"short_name", "TadukooGitHub" | first %}
+{% assign TadukooJava = site.projects | where:"short_name", "TadukooJava" | first %}
 {% assign TadukooMaven = site.projects | where:"short_name", "TadukooMaven" | first %}
 {% assign TadukooParsing = site.projects | where:"short_name", "TadukooParsing" | first %}
 {% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}
 {% assign TadukooView = site.projects | where:"short_name", "TadukooView" | first %}
 {% assign TadukooWebServices = site.projects | where:"short_name", "TadukooWebServices" | first %}
-# Tadukooverse Master Plan
-> Note: If you don't see a project on this page, it should be in the [Other Project Plans](/about/other-project-plans.html)
-
-#### Table of Contents
-* [Plans](#plans)
-  * [Overview](#overview)
-  * [{{TadukooMaven.title}}](#{{TadukooMaven.title | slugify}})
-  * [{{TadukooUtil.title}}](#{{TadukooUtil.title | slugify}})
-  * [{{TadukooView.title}}](#{{TadukooView.title | slugify}})
-  * [{{TadukooParsing.title}}](#{{TadukooParsing.title | slugify}})
-  * [{{TadukooWebServices.title}}](#{{TadukooWebServices.title | slugify}})
-  * [{{TadukooGitHub.title}}](#{{TadukooGitHub.title | slugify}})
-  * [{{TadukooAnnotations.title}}](#{{TadukooAnnotations.title | slugify}})
-  * [{{TadukooEngine.title}}](#tadukoo-enginelauncher)
-* [Progress](#progress)
-  * [{{TadukooMaven.title}}](#{{TadukooMaven.title | slugify}}-1)
-  * [{{TadukooUtil.title}}](#{{TadukooUtil.title | slugify}}-1)
-  * [{{TadukooView.title}}](#{{TadukooView.title | slugify}}-1)
-  * [{{TadukooParsing.title}}](#{{TadukooParsing.title | slugify}}-1)
-  * [{{TadukooWebServices.title}}](#{{TadukooWebServices.title | slugify}}-1)
-  * [{{TadukooGitHub.title}}](#{{TadukooGitHub.title | slugify}}-1)
-  * [{{TadukooAnnotations.title}}](#{{TadukooAnnotations.title | slugify}}-1)
-  * [{{TadukooEngine.title}}](#tadukoo-enginelauncher-1)
-* [History](#history)
-  * [Prior to the Master Plan](#prior-to-the-master-plan)
-  * [The Original Plan - August 14, 2020](#the-original-plan---august-14-2020)
-  * [Release v.1.0 Tying - September 2, 2020](#release-v10-tying---september-2-2020)
-  * [Splitting Tadukoo Util - December 16, 2020](#splitting-tadukoo-util---december-16-2020)
-  * [More Projects - May 30, 2021](#more-projects---may-30-2021)
-
 ## Plans
 ### Overview
 The current goal with the Tadukooverse Master Plan is to get to release v.1.0 of [{{TadukooEngine.title}}]({{TadukooEngine.url}}). To get there, we need to get to Java 17, make some changes to the engine, and 
@@ -77,6 +48,17 @@ The current goals for Tadukoo Maven are the following:
 {{TadukooUtil.summary}}
 
 The current goals for Tadukoo Util are the following:
+* TBA
+
+### [{{TadukooJava.title}}]({{TadukooJava.url}})
+{{TadukooJava.summary}}
+
+The current goals for Tadukoo Java are the following:
+* TBA
+
+### Ultimate Power
+
+The current goals for Ultimate Power are the following:
 * TBA
 
 ### [{{TadukooView.title}}]({{TadukooView.url}})
@@ -121,18 +103,24 @@ The current goals for Tadukoo Engine/Launcher are the following:
 * Allow installation on Windows, Mac, and Linux
 
 ## Progress
-> Last Updated: November 19, 2021 2:30 PM
+> Last Updated: August 16, 2025 8:44 PM
 
 ### [{{TadukooMaven.title}}]({{TadukooMaven.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
+> {% include text-color.html color="yellow" text="Not currently working on it - everything done?" %}
 * {% include text-color.html color="lime" text="Alpha v.0.1 - Tadukoo Maven Base POM and Library POM - Released May 28, 2021 6:56 PM" %}
 * {% include text-color.html color="lime" text="Alpha v.0.2 - Tadukoo Maven Parsing, Web Service, and View POMs - Released May 29, 2021 7:47 PM" %}
 * {% include text-color.html color="lime" text="Alpha v.0.3 - Added Tadukoo JUnit Dependencies - Released July 5, 2021 6:04 PM" %}
 * {% include text-color.html color="lime" text="Alpha v.0.3.1 - Updated to Java 17, Updated Dependencies, and Tadukoo Maven Program POM - Released November 19, 2021 9:42 PM" %}
-* {% include text-color.html color="red" text="Alpha v.0.4 - TBA" %}
+* {% include text-color.html color="lime" text="Alpha v.0.4 - Tadukoo Maven JUnit, Form, EngineBase POMs and Test Jars - Released March 25, 2023 5:45 PM" %}
+* {% include text-color.html color="lime" text="Alpha v.0.4.1 - Fix for wrong Form GroupID - Released March 25, 2023 6:25 PM" %}
+* {% include text-color.html color="lime" text="Alpha v.0.4.2 - Tadukoo Maven Plugin POM, and Changed Settings - Released August 31, 2023 7:20 PM" %}
+* {% include text-color.html color="lime" text="Beta v.0.5 - Archetypes Added and Maven dropped from module names, etc. - Released August 30, 2024 7:04 PM" %}
+* {% include text-color.html color="lime" text="Beta v.0.5.1 - Updated Dependencies and Plugins - Released December 18, 2024 10:36 PM" %}
+* {% include text-color.html color="lime" text="Beta v.0.5.2 - Updated Plugin Settings - Released January 9, 2025 8:41 PM" %}
+* {% include text-color.html color="red" text="Beta v.0.6+ - TBA?" %}
 
 ### [{{TadukooUtil.title}}]({{TadukooUtil.url}})
-> {% include text-color.html color="yellow" text="Working on Beta v.0.6" %}
+> {% include text-color.html color="yellow" text="Working on Beta v.0.7" %}
 * {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
 * {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
 * {% include text-color.html color="lime" text="Alpha v.0.2.1 - Fixes + Improvements - Released December 12, 2020 7:28 PM" %}
@@ -142,8 +130,16 @@ The current goals for Tadukoo Engine/Launcher are the following:
 * {% include text-color.html color="lime" text="Alpha v.0.4 - Dictionary and Java 16 - Released April 17, 2021 9:22 PM" %}
 * {% include text-color.html color="lime" text="Beta v.0.5 - ByteUtil and Other Changes - Released July 5, 2021 7:33 PM" %}
 * {% include text-color.html color="lime" text="Beta v.0.5.1 - Java 17 - Released November 19, 2021 9:52 PM" %}
+* {% include text-color.html color="lime" text="Beta v.0.6 - Tadukoo JUnit and Other Changes - Released August 31, 2023 8:00 PM" %}
+* {% include text-color.html color="lime" text="Beta v.0.6.1 - Small Changes - Released August 30, 2024 7:52 PM" %}
 * {% include text-color.html color="red" text="Others TBA" %}
 * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+
+### [{{TadukooJava.title}}]({{TadukooJava.url}})
+> {% include text-color.html color="yellow" text="Working on Beta v.0.6" %}
+
+### Ultimate Power
+> {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
 
 ### [{{TadukooView.title}}]({{TadukooView.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
@@ -156,6 +152,12 @@ The current goals for Tadukoo Engine/Launcher are the following:
 * {% include text-color.html color="red" text="Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components" %}
 * {% include text-color.html color="red" text="Others TBA" %}
 * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
+
+### Tadukoo Form
+> {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
+
+### Tadukoo Look & Feel
+> {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
 
 ### [{{TadukooParsing.title}}]({{TadukooParsing.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
@@ -186,11 +188,6 @@ The current goals for Tadukoo Engine/Launcher are the following:
 * {% include text-color.html color="lime" text="Alpha v.0.1.3 - Java 17 - Released November 19, 2021 10:50 PM" %}
 * {% include text-color.html color="red" text="Others TBA" %}
 * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-
-### [{{TadukooAnnotations.title}}]({{TadukooAnnotations.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
-* {% include text-color.html color="lime" text="Alpha v.0.2.2 - Moved from Tadukoo Util - Released December 13, 2020 4:37 PM" %}
-* {% include text-color.html color="yellow" text="Alpha v.0.3 - TBA" %}
 
 ### [{{TadukooEngine.title}}]({{TadukooEngine.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
@@ -246,6 +243,16 @@ other projects reach release v.1.0+, they'll use annotations for noting backward
 
 [{{TadukooDatabase.title}}]({{TadukooDatabase.url}}) was removed from this plan (at least for now), because the engine itself doesn't require it.
 
-[{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) was created for Tadukoo Java to be moved to (out of Tadukoo Parsing).
+Tadukoo Code Parsing was created for Tadukoo Java to be moved to (out of Tadukoo Parsing).
 
-[{{TadukooDatabase.title}}]({{TadukooDatabse.url}}) and [{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) can be found on the [Other Project Plans page](/about/other-project-plans.html).
+[{{TadukooDatabase.title}}]({{TadukooDatabse.url}}) and Tadukoo Code Parsing can be found on the [Other Project Plans page](/about/other-project-plans.html).
+
+### August 16, 2025
+Now Tadukoo Code Parsing is [{{TadukooJava.title}}]({{TadukooJava.url}}), and it's relevant for the plan again, because of Ultimate Power using it.
+
+Ultimate Power is a new project that will be used to make custom annotations for generating simple code, similar to Lombok. Ultimate Power requires Java parsing/generation to work, 
+and it will be used by all projects other than [{{TadukooJava.title}}]({{TadukooJava.url}}) and [{{TadukooUtil.title}}]({{TadukooUtil.url}}). Ultimate Power is also effectively 
+the replacement of [{{TadukooAnnotations.title}}]({{TadukooAnnotations.url}}).
+
+Also in the past few years, [{{TadukooView.title}}]({{TadukooView.url}}) was split into 3 projects. [{{TadukooView.title}}]({{TadukooView.url}}) now just contains the basic utilities 
+in View and Components modules. Tadukoo Form is the form content, now split into 3 modules, Form Fields, Form, and Form Components. Tadukoo Look & Feel is now its own project.

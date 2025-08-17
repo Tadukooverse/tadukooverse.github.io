@@ -1,15 +1,9 @@
 ---
 title: Website Plans
+note: "Note: This page is about plans for the Tadukooverse website. For Tadukooverse project plans, check out the [Tadukooverse Master Plan](/about/tadukooverse-master-plan.html) and [Other Project Plans](/about/other-project-plans.html) pages"
 blurb: The current plans for the Tadukooverse website
 summary: The current plans for the Tadukooverse website
 ---
-# Website Plans
-> Note: This page is about plans for the Tadukooverse website. For Tadukooverse project plans, check out the [Tadukooverse Master Plan](/about/tadukooverse-master-plan.html) and [Other Project Plans](/about/other-project-plans.html) pages
-
-#### Table of Contents
-* [General Plans](#general-plans)
-* [Project Related](#project-related)
-
 ## General Plans
 * Make a logo for Tadukooverse
 

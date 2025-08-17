@@ -1,20 +1,12 @@
 ---
 title: Other Project Plans
+note: "Note: If you don't see a project on this page, it's likely part of the [Tadukooverse Master Plan](/about/tadukooverse-master-plan.html)"
 blurb: The current plans for Tadukooverse projects outside of the master plan
 summary: The current plans for Tadukooverse projects outside of the master plan. This contains side plans for Tadukooverse projects.
 ---
 {% assign TadukooCodeParsing = site.projects | where:"short_name", "TadukooCodeParsing" | first %}
 {% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
 {% assign TadukooJUnit = site.projects | where:"short_name", "TadukooJUnit" | first %}
-# Other Project Plans
-> Note: If you don't see a project on this page, it's likely part of the [Tadukooverse Master Plan](/about/tadukooverse-master-plan.html)
-
-#### Table of Contents
-* [Progress](#progress)
-  * [{{TadukooCodeParsing.title}}](#{{TadukooCodeParsing.title | slugify}})
-  * [{{TadukooDatabase.title}}](#{{TadukooDatabase.title | slugify}})
-  * [{{TadukooJUnit.title}}](#{{TadukooJUnit.title | slugify}})
-
 ## Progress
 > Last Updated: December 12, 2021 4:40 PM
 

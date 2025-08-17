@@ -29,6 +29,7 @@ defaults:
       type: "contributors"
     values:
       layout: "contributor"
+      toc_off: true
   - scope:
       path: ""
       type: "guides"
@@ -46,4 +47,5 @@ defaults:
 
 plugins:
   - jemoji
+  - jekyll-toc
   
