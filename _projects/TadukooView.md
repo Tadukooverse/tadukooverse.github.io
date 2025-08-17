@@ -6,15 +6,6 @@ summary: Tadukoo View is a collection of view utilities.
 version: Alpha v.0.3
 github: https://github.com/Tadukooverse/TadukooView
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-    * [Tadukoo Components](#tadukoo-components)
-    * [Tadukoo Form](#tadukoo-form)
-    * [Tadukoo Look & Feel](#tadukoo-look--feel)
-    * [Tadukoo View](#tadukoo-view)
-* [Current Plans](#current-plans)
-
 ## Modules
 ### Tadukoo Components
 Tadukoo Components provides components that are more customizable than default Java's components.

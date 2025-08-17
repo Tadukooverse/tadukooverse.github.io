@@ -6,12 +6,6 @@ summary: Tadukoo Java is various libraries for dealing with Java code.
 version: Alpha v.0.3.1
 github: https://github.com/Tadukooverse/TadukooJava
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-    * [Tadukoo Java](#tadukoo-java)
-* [Current Plans](#current-plans)
-
 ## Modules
 ### Tadukoo Java
 Tadukoo Java is a library for parsing/generating Java code.

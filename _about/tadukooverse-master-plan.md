@@ -247,7 +247,7 @@ Tadukoo Code Parsing was created for Tadukoo Java to be moved to (out of Tadukoo
 
 [{{TadukooDatabase.title}}]({{TadukooDatabse.url}}) and Tadukoo Code Parsing can be found on the [Other Project Plans page](/about/other-project-plans.html).
 
-### August 16, 2025
+### 4 Years Changes/Releases Catchup - August 16, 2025
 Now Tadukoo Code Parsing is [{{TadukooJava.title}}]({{TadukooJava.url}}), and it's relevant for the plan again, because of Ultimate Power using it.
 
 Ultimate Power is a new project that will be used to make custom annotations for generating simple code, similar to Lombok. Ultimate Power requires Java parsing/generation to work, 

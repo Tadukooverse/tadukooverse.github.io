@@ -47,5 +47,4 @@ defaults:
 
 plugins:
   - jemoji
-  - jekyll-toc
   

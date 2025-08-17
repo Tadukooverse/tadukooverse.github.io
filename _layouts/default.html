@@ -33,6 +33,7 @@
 		{% if page.note %}
 		<blockquote>{{page.note | markdownify}}</blockquote>
 		{% endif %}
+		{% include before_toc.html %}
 		{% unless page.toc_off or page.url == '/' %}
 		<div>
 		{% include toc.html html=content sanitize=true h_min=2 %}

@@ -6,12 +6,6 @@ summary: Tadukoo Database is a collection of utilities used for interacting with
 version: Alpha v.0.2.2
 github: https://github.com/Tadukooverse/TadukooDatabase
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-    * [Tadukoo MySQL](#tadukoo-mysql)
-* [Current Plans](#current-plans)
-
 ## Modules
 ### Tadukoo MySQL
 Tadukoo MySQL is used for interacting with a MySQL database.

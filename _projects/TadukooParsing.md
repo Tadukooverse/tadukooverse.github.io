@@ -6,14 +6,6 @@ summary: Tadukoo Parsing is a collection of libraries used for parsing various f
 version: Alpha v.0.2.2
 github: https://github.com/Tadukooverse/TadukooParsing
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-  * [Tadukoo File Format](#tadukoo-file-format)
-  * [Tadukoo Java](#tadukoo-java)
-  * [Tadukoo JSON](#tadukoo-json)
-* [Current Plans](#current-plans)
-
 ## Modules
 
 ### Tadukoo File Format

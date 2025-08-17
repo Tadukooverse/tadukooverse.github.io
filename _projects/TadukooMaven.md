@@ -10,16 +10,6 @@ github: https://github.com/Tadukooverse/TadukooMaven
 {% assign TadukooView = site.projects | where:"short_name", "TadukooView" | first %}
 {% assign TadukooParsing = site.projects | where:"short_name", "TadukooParsing" | first %}
 {% assign TadukooWebServices = site.projects | where:"short_name", "TadukooWebServices" | first %}
-
-#### Table of Contents
-* [Modules](#modules)
-    * [Tadukoo Maven Base POM](#tadukoo-maven-base-pom)
-      * [Tadukoo Maven Library POM](#tadukoo-maven-library-pom)
-      * [Tadukoo Maven Parsing POM](#tadukoo-maven-parsing-pom)
-      * [Tadukoo Maven Web Service POM](#tadukoo-maven-web-service-pom)
-      * [Tadukoo Maven View POM](#tadukoo-maven-view-pom)
-* [Current Plans](#current-plans)
-
 ## Modules
 ### Tadukoo Maven Base POM
 Tadukoo Maven Base POM is the base POM.xml for all Tadukooverse Maven projects.

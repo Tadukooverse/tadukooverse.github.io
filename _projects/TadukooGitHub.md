@@ -6,12 +6,6 @@ summary: Tadukoo GitHub is a collection of libraries for interacting with GitHub
 version: Alpha v.0.1
 github: https://github.com/Tadukooverse/TadukooGitHub
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-    * [Tadukoo GitHub](#tadukoo-github)
-* [Current Plans](#current-plans)
-
 ## Modules
 
 ### Tadukoo GitHub

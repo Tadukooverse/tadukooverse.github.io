@@ -9,14 +9,6 @@ summary: >
 version: Alpha v.0.2.2
 github: https://github.com/Tadukooverse/TadukooUtil
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-  * [Tadukoo Functions](#tadukoo-functions)
-  * [Tadukoo Lang](#tadukoo-lang)
-  * [Tadukoo Util](#tadukoo-util)
-* [Current Plans](#current-plans)
-
 ## Modules
 ### Tadukoo Functions
 Tadukoo Functions provides throwing functional interfaces.

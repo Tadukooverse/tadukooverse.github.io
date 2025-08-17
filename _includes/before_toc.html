@@ -1,0 +1,7 @@
+{% if page.layout == "project" %}
+{% if page.logo %}<img src="/assets/images/{{page.logo}}" alt="{{page.title}}" style="float: right" />{% endif %}
+<p><i>Looking for the Javadocs for this project? They can be found <a href="/docs/{{page.short_name}}/current/">here</a></i></p>
+<p><i>Find this project <a href="{{page.github}}">on GitHub</a></i></p>
+<p><b>Current Version: {{page.version}}</b></p>
+{{page.summary | markdownify}}
+{% endif %}

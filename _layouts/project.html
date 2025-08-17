@@ -1,18 +1,11 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
-{% if page.logo %}<img src="/assets/images/{{page.logo}}" alt="{{page.title}}" style="float: right" />{% endif %}
-<p><i>Looking for the Javadocs for this project? They can be found <a href="/docs/{{page.short_name}}/current/">here</a></i></p>
-<p><i>Find this project <a href="{{page.github}}">on GitHub</a></i></p>
-<p><b>Current Version: {{page.version}}</b></p>
-{{page.summary | markdownify}}
-
 {{content}}
 
-<h2>Guides</h2>
+<h2 id="guides">Guides</h2>
 {% assign project_guides = site.guides | where:"project", page.short_name | sort %}
 {% for guide in project_guides %}
-<h3><a href="{{guide.url}}">{{guide.title}}</a></h3>
+<h3 id="{{guide.title | slugify}}"><a href="{{guide.url}}">{{guide.title}}</a></h3>
 {{guide.blurb}}
 {% endfor %}

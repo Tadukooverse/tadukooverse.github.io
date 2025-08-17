@@ -6,15 +6,7 @@ summary: Tadukoo Annotations is a collection of annotations and utilities for cr
 version: Alpha v.0.2.2
 github: https://github.com/Tadukooverse/TadukooAnnotations
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-    * [Tadukoo Annotation Processor](#tadukoo-annotation-processor)
-    * [Tadukoo Annotations](#tadukoo-annotations)
-* [Current Plans](#current-plans)
-
 ## Modules
-
 ### Tadukoo Annotation Processor
 Tadukoo Annotation Processor makes it easier to create annotation processors.
 

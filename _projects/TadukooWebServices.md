@@ -6,12 +6,6 @@ summary: Tadukoo Web Services is a collection of libraries for interacting with 
 version: Alpha v.0.1
 github: https://github.com/Tadukooverse/TadukooWebServices
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-    * [Tadukoo REST](#tadukoo-rest)
-* [Current Plans](#current-plans)
-
 ## Modules
 
 ### Tadukoo REST

@@ -17,15 +17,6 @@ summary: 'Tadukoo Engine and Tadukoo Launcher go hand-in-hand. Tadukoo Engine is
 version: Alpha v.0.1 SNAPSHOT
 github: https://github.com/Tadukoo/TadukooEngine
 ---
-
-#### Table of Contents
-* [Modules](#modules)
-	* [Tadukoo Downloader](#tadukoo-downloader)
-	* [Tadukoo Engine](#tadukoo-engine)
-	* [Tadukoo Installer](#tadukoo-installer)
-	* [Tadukoo Launcher](#tadukoo-launcher)
-* [Current Plans](#current-plans)
-
 ## Modules
 
 ### Tadukoo Downloader
