@@ -1,10 +1,20 @@
 ---
 layout: default
 ---
-<h1>{{page.name}}</h1>
-<h2>{{page.position}}</h2>
-{% if page.website %}
-Personal Website: <a href={{page.website.url}}>{{page.website.name}}</a>
+{% if page.name %}
+<p>Name: {{page.name}}</p>
 {% endif %}
+
+<p>GitHub username: <a href="https://github.com/{{page.github}}">{{page.github}}</a></p>
+
+{% if page.role %}
+<p>Role: {{page.role}}</p>
+{% endif %}
+
+{% if page.website %}
+<p>Personal Website: <a href={{page.website.url}}>{{page.website.name}}</a></p>
+{% endif %}
+
+{{page.blurb}}
 
 {{content}}
