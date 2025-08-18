@@ -6,30 +6,7 @@ summary: >
   Tadukoo Util is meant as a collection of utility libraries for very common use. They can be used in conjunction with Tadukoo Engine/Launcher, or can be used separately in other programs if desired. 
   This collection is not meant as a full smorgasbord of all libraries, but is just meant to include the most common libraries to be reused in most projects 
   (e.g. common null-safe string/boolean checks, multimaps, throwing functional interfaces, etc.)
-version: Alpha v.0.2.2
 github: https://github.com/Tadukooverse/TadukooUtil
-changelog:
-- alpha: 
-  - version: Alpha v.0.1
-    blurb: Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util
-    released: September 5, 2020 8:01 PM
-    details: 'Alpha v.0.1 of Tadukoo Util - Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util
-- This release represents the first release for Tadukoo Util of the following modules:
-  - Tadukoo Annotation Processor - provides @AnnotationProcessor and AnnotationUtil for making Annotations
-  - Tadukoo Lang - provides common basic utilities such as StringUtil and Tuples
-  - Tadukoo Util - provides common utilities that are more advanced, such as MultiMap, ManyToManyMap, and Throwing Functional Interfaces
-- While the following modules are included, they should not be considered officially released with this release, and will be completed in future Alpha releases leading up to Beta. 
-Use them at your own risk, understanding they may change entirely.
-  - Tadukoo Database - utilities for communicating with a SQL database
-  - Tadukoo File Format - allows you to create your own file formats
-  - Tadukoo Look & Feel - a customizable Look & Feel
-  - Tadukoo View - common view utilities
-
-The first set of modules will be fully supported, while the second set will not. Tadukoo Util (the project) is in kind of a weird state at the moment, See 
-[the Tadukooverse Master Plan](http://tadukooverse.github.io/blog/2020/08/14/the-tadukooverse-master-plan.html) for more details on what''s going on.
-
-Due to some weird things going on with the plan, this version has the version string 0.1-Alpha-SNAPSHOT for the purposes of Maven, and will only be available in the snapshots 
-repository of Maven Central, and not in the official releases repository. Also, this is why the jars themselves have "-SNAPSHOT" in them.'
 ---
 ## Modules
 ### Tadukoo Functions
