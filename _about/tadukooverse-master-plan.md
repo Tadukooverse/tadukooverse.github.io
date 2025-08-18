@@ -172,10 +172,14 @@ The current goals for Tadukoo Engine/Launcher are the following:
 
 ### [{{TadukooWebServices.title}}]({{TadukooWebServices.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
-* {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Tadukoo REST - Released February 6, 2021 9:26 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.1.1 - Java 16 and Tadukoo Parsing Alpha v.0.3 - Released April 25, 2021 11:18 AM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.1.2 - Tadukoo Parsing Alpha v.0.3.1 - Released July 10, 2021 8:01 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.1.3 - Java 17 - Released November 19, 2021 10:44 PM" %}
+{%- assign ws_changelogs = site.changelogs | where:"project", "TadukooWebServices" | sort -%}
+{% for ws_changelog in ws_changelogs -%}
+{% assign logs = ws_changelog.changelog | reverse -%}
+{% for log in logs -%}
+{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
+* {% include text-color.html color="lime" text=log_text %}
+{%- endfor %}
+{%- endfor %}
 * {% include text-color.html color="red" text="Alpha v.0.2 - Complete Tadukoo SOAP" %}
 * {% include text-color.html color="red" text="Others TBA" %}
 * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}

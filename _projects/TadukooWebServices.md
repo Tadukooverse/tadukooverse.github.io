@@ -3,7 +3,6 @@ short_name: TadukooWebServices
 title: Tadukoo Web Services
 blurb: Tadukoo Web Services is a collection of libraries for interacting with web services.
 summary: Tadukoo Web Services is a collection of libraries for interacting with web services.
-version: Alpha v.0.1
 github: https://github.com/Tadukooverse/TadukooWebServices
 ---
 ## Modules
