@@ -122,17 +122,14 @@ The current goals for Tadukoo Engine/Launcher are the following:
 
 ### [{{TadukooUtil.title}}]({{TadukooUtil.url}})
 > {% include text-color.html color="yellow" text="Working on Beta v.0.7" %}
-* {% include text-color.html color="lime" text="Alpha v.0.1 - Finish Up Tadukoo Annotation Processor, Tadukoo Lang, and Tadukoo Util - Released September 5, 2020 8:01 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.2 - Complete Tadukoo View - Released November 7, 2020 9:07 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.2.1 - Fixes + Improvements - Released December 12, 2020 7:28 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.2.2 - Reorganization - Released December 13, 2020 8:39 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.3 - More Tadukoo Functions - Released December 19, 2020 7:47 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.3.1 - Character Util and More String Utils - Released February 6, 2021 5:29 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.4 - Dictionary and Java 16 - Released April 17, 2021 9:22 PM" %}
-* {% include text-color.html color="lime" text="Beta v.0.5 - ByteUtil and Other Changes - Released July 5, 2021 7:33 PM" %}
-* {% include text-color.html color="lime" text="Beta v.0.5.1 - Java 17 - Released November 19, 2021 9:52 PM" %}
-* {% include text-color.html color="lime" text="Beta v.0.6 - Tadukoo JUnit and Other Changes - Released August 31, 2023 8:00 PM" %}
-* {% include text-color.html color="lime" text="Beta v.0.6.1 - Small Changes - Released August 30, 2024 7:52 PM" %}
+{%- assign util_changelogs = site.changelogs | where:"project", "TadukooUtil" | sort -%}
+{% for util_changelog in util_changelogs -%}
+{% assign logs = util_changelog.changelog | reverse -%}
+{% for log in logs -%}
+{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
+* {% include text-color.html color="lime" text=log_text %}
+{%- endfor %}
+{%- endfor %}
 * {% include text-color.html color="red" text="Others TBA" %}
 * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 
