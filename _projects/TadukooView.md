@@ -3,7 +3,6 @@ short_name: TadukooView
 title: Tadukoo View
 blurb: Tadukoo View is a collection of view utilities.
 summary: Tadukoo View is a collection of view utilities.
-version: Alpha v.0.3
 github: https://github.com/Tadukooverse/TadukooView
 ---
 ## Modules
