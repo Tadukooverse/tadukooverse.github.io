@@ -3,7 +3,6 @@ short_name: TadukooMaven
 title: Tadukoo Maven
 blurb: Tadukoo Maven is a collection of Maven poms and archetypes for Tadukooverse projects.
 summary: Tadukoo Maven is a collection of Maven poms and archetypes for Tadukooverse projects.
-version: Alpha v.0.3
 github: https://github.com/Tadukooverse/TadukooMaven
 ---
 {% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}

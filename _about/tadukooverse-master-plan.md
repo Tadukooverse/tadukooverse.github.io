@@ -108,16 +108,14 @@ The current goals for Tadukoo Engine/Launcher are the following:
 
 ### [{{TadukooMaven.title}}]({{TadukooMaven.url}})
 > {% include text-color.html color="yellow" text="Not currently working on it - everything done?" %}
-* {% include text-color.html color="lime" text="Alpha v.0.1 - Tadukoo Maven Base POM and Library POM - Released May 28, 2021 6:56 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.2 - Tadukoo Maven Parsing, Web Service, and View POMs - Released May 29, 2021 7:47 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.3 - Added Tadukoo JUnit Dependencies - Released July 5, 2021 6:04 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.3.1 - Updated to Java 17, Updated Dependencies, and Tadukoo Maven Program POM - Released November 19, 2021 9:42 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.4 - Tadukoo Maven JUnit, Form, EngineBase POMs and Test Jars - Released March 25, 2023 5:45 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.4.1 - Fix for wrong Form GroupID - Released March 25, 2023 6:25 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.4.2 - Tadukoo Maven Plugin POM, and Changed Settings - Released August 31, 2023 7:20 PM" %}
-* {% include text-color.html color="lime" text="Beta v.0.5 - Archetypes Added and Maven dropped from module names, etc. - Released August 30, 2024 7:04 PM" %}
-* {% include text-color.html color="lime" text="Beta v.0.5.1 - Updated Dependencies and Plugins - Released December 18, 2024 10:36 PM" %}
-* {% include text-color.html color="lime" text="Beta v.0.5.2 - Updated Plugin Settings - Released January 9, 2025 8:41 PM" %}
+{%- assign maven_changelogs = site.changelogs | where:"project", "TadukooMaven" | sort -%}
+{% for maven_changelog in maven_changelogs -%}
+{% assign logs = maven_changelog.changelog | reverse -%}
+{% for log in logs -%}
+{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
+* {% include text-color.html color="lime" text=log_text %}
+{%- endfor %}
+{%- endfor %}
 * {% include text-color.html color="red" text="Beta v.0.6+ - TBA?" %}
 
 ### [{{TadukooUtil.title}}]({{TadukooUtil.url}})
