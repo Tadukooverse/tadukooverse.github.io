@@ -4,17 +4,21 @@ layout: default
 {{content}}
 
 {% unless page.replaced %}
-<h2 id="guides">Guides</h2>
 {% assign project_guides = site.guides | where:"project", page.short_name | sort %}
+{% if project_guides.size > 0 %}
+<h2 id="guides">Guides</h2>
 {% for guide in project_guides %}
 <h3 id="{{guide.title | slugify}}"><a href="{{guide.url}}">{{guide.title}}</a></h3>
 {{guide.blurb}}
 {% endfor %}
+{% endif %}
 
-<h2 id="changelog">Changelog</h2>
 {% assign project_changelogs = site.changelogs | where:"project", page.short_name | sort %}
+{% if project_changelogs.size > 0 %}
+<h2 id="changelog">Changelog</h2>
 {% for changelog in project_changelogs %}
 <h3 id="{{changelog.version_range | slugify}}"><a href="{{changelog.url}}">{{changelog.version_range}}</a></h3>
 {{changelog.blurb}}
 {% endfor %}
+{% endif %}
 {% endunless %}
