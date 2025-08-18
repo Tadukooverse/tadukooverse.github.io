@@ -4,6 +4,8 @@ description: Official website of Tadukooverse
 collections:
   about:
     output: true
+  changelogs:
+    output: true
   community:
     output: true
   contributors:
@@ -19,6 +21,11 @@ defaults:
       type: "about"
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "changelogs"
+    values:
+      layout: "changelog"
   - scope:
       path: ""
       type: "community"
@@ -40,6 +47,7 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+      replaced: false
   - scope:
       path: ""
     values:

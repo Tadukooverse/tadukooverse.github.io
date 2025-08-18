@@ -3,9 +3,18 @@ layout: default
 ---
 {{content}}
 
+{% unless page.replaced %}
 <h2 id="guides">Guides</h2>
 {% assign project_guides = site.guides | where:"project", page.short_name | sort %}
 {% for guide in project_guides %}
 <h3 id="{{guide.title | slugify}}"><a href="{{guide.url}}">{{guide.title}}</a></h3>
 {{guide.blurb}}
 {% endfor %}
+
+<h2 id="changelog">Changelog</h2>
+{% assign project_changelogs = site.changelogs | where:"project", page.short_name | sort %}
+{% for changelog in project_changelogs %}
+<h3 id="{{changelog.version_range | slugify}}"><a href="{{changelog.url}}">{{changelog.version_range}}</a></h3>
+{{changelog.blurb}}
+{% endfor %}
+{% endunless %}

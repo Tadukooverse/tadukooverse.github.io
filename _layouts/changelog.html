@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% for log in page.changelog %}
+<h2 id="{{log.version | slugify}}-{{log.blurb | slugify}}">{{log.version}} - {{log.blurb}}</h2>
+<blockquote>Released: {{log.released}}</blockquote>
+<blockquote>GitHub release: <a href="{{log.github}}">{{log.version}}</a></blockquote>
+
+{{log.details | markdownify}}
+{% endfor %}
+
+{{content}}

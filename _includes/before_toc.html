@@ -1,7 +1,14 @@
 {% if page.layout == "project" %}
 {% if page.logo %}<img src="/assets/images/{{page.logo}}" alt="{{page.title}}" style="float: right" />{% endif %}
+{% unless page.replaced %}
 <p><i>Looking for the Javadocs for this project? They can be found <a href="/docs/{{page.short_name}}/current/">here</a></i></p>
 <p><i>Find this project <a href="{{page.github}}">on GitHub</a></i></p>
 <p><b>Current Version: {{page.version}}</b></p>
+{% endunless %}
 {{page.summary | markdownify}}
+{% endif %}
+{% if page.layout == "changelog" %}
+{% assign project = site.projects | where:"short_name", page.project | first %}
+<p><i>Looking for the project page of {{project.title}}? It can be found <a href="{{project.url}}">here</a></i></p>
+{{page.blurb | markdownify}}
 {% endif %}

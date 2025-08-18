@@ -5,6 +5,7 @@ blurb: The current master plan for Tadukooverse
 summary: The current master plan for Tadukooverse. This contains the main plans for Tadukooverse projects.
 ---
 {% assign TadukooAnnotations = site.projects | where:"short_name", "TadukooAnnotations" | first %}
+{% assign TadukooCodeParsing = site.projects | where:"short_name", "TadukooCodeParsing" | first %}
 {% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
 {% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
 {% assign TadukooGitHub = site.projects | where:"short_name", "TadukooGitHub" | first %}
@@ -243,12 +244,12 @@ other projects reach release v.1.0+, they'll use annotations for noting backward
 
 [{{TadukooDatabase.title}}]({{TadukooDatabase.url}}) was removed from this plan (at least for now), because the engine itself doesn't require it.
 
-Tadukoo Code Parsing was created for Tadukoo Java to be moved to (out of Tadukoo Parsing).
+[{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) was created for Tadukoo Java to be moved to (out of Tadukoo Parsing).
 
-[{{TadukooDatabase.title}}]({{TadukooDatabse.url}}) and Tadukoo Code Parsing can be found on the [Other Project Plans page](/about/other-project-plans.html).
+[{{TadukooDatabase.title}}]({{TadukooDatabse.url}}) and [{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) can be found on the [Other Project Plans page](/about/other-project-plans.html).
 
 ### 4 Years Changes/Releases Catchup - August 16, 2025
-Now Tadukoo Code Parsing is [{{TadukooJava.title}}]({{TadukooJava.url}}), and it's relevant for the plan again, because of Ultimate Power using it.
+Now [{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) is [{{TadukooJava.title}}]({{TadukooJava.url}}), and it's relevant for the plan again, because of Ultimate Power using it.
 
 Ultimate Power is a new project that will be used to make custom annotations for generating simple code, similar to Lombok. Ultimate Power requires Java parsing/generation to work, 
 and it will be used by all projects other than [{{TadukooJava.title}}]({{TadukooJava.url}}) and [{{TadukooUtil.title}}]({{TadukooUtil.url}}). Ultimate Power is also effectively 
