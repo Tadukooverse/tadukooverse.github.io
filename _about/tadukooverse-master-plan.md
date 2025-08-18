@@ -159,12 +159,14 @@ The current goals for Tadukoo Engine/Launcher are the following:
 
 ### [{{TadukooParsing.title}}]({{TadukooParsing.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
-* {% include text-color.html color="lime" text="Alpha v.0.1 - Complete Tadukoo JSON - Released November 10, 2020 6:11 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.2.2 - Moved Tadukoo File Format Over + Other Minor Changes - Released December 13, 2020 9:18 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.2.3 - Updated Tadukoo Util to Alpha v.0.3.1 + Other Minor Changes - Released February 6, 2021 6:43 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.3 - Complete Tadukoo File Format - Released April 24, 2021 11:00 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.3.1 - Update to Tadukoo Util Beta v.0.5 + Other Minor Changes - Released July 10, 2021 7:54 PM" %}
-* {% include text-color.html color="lime" text="Alpha v.0.3.2 - Java 17 - Released November 19, 2021 10:33 PM" %}
+{%- assign parsing_changelogs = site.changelogs | where:"project", "TadukooParsing" | sort -%}
+{% for parsing_changelog in parsing_changelogs -%}
+{% assign logs = parsing_changelog.changelog | reverse -%}
+{% for log in logs -%}
+{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
+* {% include text-color.html color="lime" text=log_text %}
+{%- endfor %}
+{%- endfor %}
 * {% include text-color.html color="red" text="Others TBA" %}
 * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 

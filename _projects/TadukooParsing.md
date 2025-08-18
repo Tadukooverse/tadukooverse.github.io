@@ -3,7 +3,6 @@ short_name: TadukooParsing
 title: Tadukoo Parsing
 blurb: Tadukoo Parsing is a collection of libraries used for parsing various formats.
 summary: Tadukoo Parsing is a collection of libraries used for parsing various formats.
-version: Alpha v.0.2.2
 github: https://github.com/Tadukooverse/TadukooParsing
 ---
 ## Modules
