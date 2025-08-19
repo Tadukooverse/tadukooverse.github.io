@@ -40,6 +40,35 @@ upcoming_versions:
   - Alpha v.0.2 - Auto-Updating
   - Beta v.0.? - TBA
   - Release v.1.0 - Needs Planning
+current_plans:
+  TadukooMaven:
+  - item: Parent POMs to be used by libraries and programs
+  - item: Maven Archetypes to be used for libraries and programs
+  TadukooUtil:
+  - item: TBA
+  TadukooJava:
+  - item: TBA
+  UltimatePower:
+  - item: TBA
+  TadukooView:
+  - item: TBA
+  TadukooForm:
+  - item: TBA
+  TadukooLookAndFeel:
+  - item: TBA
+  TadukooParsing:
+  - item: TBA
+  TadukooWebServices:
+  - item: TBA
+  TadukooGitHub:
+  - item: TBA
+  TadukooEngine:
+  - item: Running and terminating programs
+  - item: Making the launcher able to auto-update
+  - item: Handling informational files
+  - item: Downloading files
+  - item: Handling dependencies
+  - item: Allow installation on Windows, Mac, and Linux
 ---
 {% assign TadukooAnnotations = site.projects | where:"short_name", "TadukooAnnotations" | first %}
 {% assign TadukooCodeParsing = site.projects | where:"short_name", "TadukooCodeParsing" | first %}
@@ -69,78 +98,17 @@ Java 17 is being required because it's an LTS (long-term support) release and we
 
 Release v.1.0+ of the other projects is required because that means they'll include backwards compatibility moving forward, which will allow the engine to have backwards compatibility too.
 
-### [{{TadukooMaven.title}}]({{TadukooMaven.url}})
-{{TadukooMaven.summary}}
+{% for master_project in master_projects -%}
+{% assign project = site.projects | where:"short_name", master_project | first %}
+{% assign current_plans = page.current_plans[master_project] %}
+### [{{project.title}}]({{project.url}})
+{{project.summary}}
 
-The current goals for Tadukoo Maven are the following:
-* Parent POMs to be used by libraries and programs
-  * Tadukoo Maven Base POM - base POM for all projects, to provide Maven, JaCoCo, and Central Repo plugins as well as JUnit dependencies
-  * Tadukoo Maven Library POM - base POM for library projects that directly use [{{TadukooUtil.title}}]({{TadukooUtil.url}})
-  * Tadukoo Maven Parsing POM - base POM for parsing projects that directly use [{{TadukooParsing.title}}]({{TadukooParsing.url}})
-  * Tadukoo Maven Web Service POM - base POM for web service projects that directly use [{{TadukooWebServices.title}}]({{TadukooWebServices.url}})
-  * Tadukoo Maven View POM - base POM for view projects that directly use [{{TadukooView.title}}]({{TadukooView.url}})
-  * Tadukoo Maven Program POM - base POM for program projects that directly use [{{TadukooEngine.title}}]({{TadukooEngine.url}})
-* Maven Archetypes to be used for libraries and programs
-  * TBA
-
-### [{{TadukooUtil.title}}]({{TadukooUtil.url}})
-{{TadukooUtil.summary}}
-
-The current goals for Tadukoo Util are the following:
-* TBA
-
-### [{{TadukooJava.title}}]({{TadukooJava.url}})
-{{TadukooJava.summary}}
-
-The current goals for Tadukoo Java are the following:
-* TBA
-
-### [{{UltimatePower.title}}]({{UltimatePower.url}})
-{{UltimatePower.summary}}
-
-The current goals for Ultimate Power are the following:
-* TBA
-
-### [{{TadukooView.title}}]({{TadukooView.url}})
-{{TadukooView.summary}}
-
-The current goals for Tadukoo View are the following:
-* TBA
-
-### [{{TadukooParsing.title}}]({{TadukooParsing.url}})
-{{TadukooParsing.summary}}
-
-The current plans for Tadukoo Parsing are the following:
-* TBA
-
-### [{{TadukooWebServices.title}}]({{TadukooWebServices.url}})
-{{TadukooWebServices.summary}}
-
-The current goals for Tadukoo Web Services are the following:
-* TBA
-
-### [{{TadukooGitHub.title}}]({{TadukooGitHub.url}})
-{{TadukooGitHub.summary}}
-
-The current goals for Tadukoo GitHub are the following:
-* TBA
-
-### [{{TadukooAnnotations.title}}]({{TadukooAnnotations.url}})
-{{TadukooAnnotations.summary}}
-
-The current goals for Tadukoo Annotations are the following:
-* TBA
-
-### [{{TadukooEngine.title}}]({{TadukooEngine.url}})
-{{TadukooEngine.summary}}
-
-The current goals for Tadukoo Engine/Launcher are the following:
-* Running and terminating programs
-* Making the launcher able to auto-update
-* Handling informational files
-* Downloading files
-* Handling dependencies
-* Allow installation on Windows, Mac, and Linux
+The current goals for {{project.title}} are the following:
+{% for plan in current_plans -%}
+* {{plan.item}}
+{% endfor %}
+{% endfor %}
 
 ## Progress
 > Last Updated: August 16, 2025 8:44 PM
