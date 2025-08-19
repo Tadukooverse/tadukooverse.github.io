@@ -3,6 +3,43 @@ title: Tadukooverse Master Plan
 note: "Note: If you don't see a project on this page, it should be in the [Other Project Plans](/about/other-project-plans.html)"
 blurb: The current master plan for Tadukooverse
 summary: The current master plan for Tadukooverse. This contains the main plans for Tadukooverse projects.
+current_work:
+  TadukooMaven: Not currently working on it - everything done?
+  TadukooUtil: Working on Beta v.0.7
+  TadukooJava: Working on Beta v.0.6
+  UltimatePower: Working on Alpha v.0.3
+  TadukooView: Working on Alpha v.0.4
+  TadukooForm: Working on Alpha v.0.4
+  TadukooLookAndFeel: Working on Alpha v.0.4
+  TadukooParsing: Working on Alpha v.0.4
+  TadukooWebServices: Working on Alpha v.0.2
+  TadukooGitHub: Working on Alpha v.0.2
+  TadukooEngine: Working on Alpha v.0.1
+upcoming_versions:
+  TadukooMaven: 
+  - Beta v.0.6+ - TBA?
+  TadukooUtil:
+  - Others TBA
+  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
+  TadukooView:
+  - Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components
+  - Others TBA
+  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
+  TadukooParsing:
+  - Others TBA
+  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
+  TadukooWebServices:
+  - Alpha v.0.2 - Complete Tadukoo SOAP
+  - Others TBA
+  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
+  TadukooGitHub:
+  - Others TBA
+  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
+  TadukooEngine:
+  - Alpha v.0.1 - Informational files
+  - Alpha v.0.2 - Auto-Updating
+  - Beta v.0.? - TBA
+  - Release v.1.0 - Needs Planning
 ---
 {% assign TadukooAnnotations = site.projects | where:"short_name", "TadukooAnnotations" | first %}
 {% assign TadukooCodeParsing = site.projects | where:"short_name", "TadukooCodeParsing" | first %}
@@ -108,119 +145,24 @@ The current goals for Tadukoo Engine/Launcher are the following:
 ## Progress
 > Last Updated: August 16, 2025 8:44 PM
 
-### [{{TadukooMaven.title}}]({{TadukooMaven.url}})
-> {% include text-color.html color="yellow" text="Not currently working on it - everything done?" %}
-{%- assign maven_changelogs = site.changelogs | where:"project", "TadukooMaven" | sort -%}
-{% for maven_changelog in maven_changelogs -%}
-{% assign logs = maven_changelog.changelog | reverse -%}
+{% for master_project in master_projects %}
+{% assign current_work = page.current_work[master_project] %}
+{% assign project = site.projects | where:"short_name", master_project | first %}
+### [{{project.title}}]({{project.url}})
+> {% include text-color.html color="yellow" text=current_work %}
+{%- assign changelogs = site.changelogs | where:"project", master_project | sort -%}
+{% for changelog in changelogs -%}
+{% assign logs = changelog.changelog | reverse -%}
 {% for log in logs -%}
 {% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
 * {% include text-color.html color="lime" text=log_text %}
 {%- endfor %}
 {%- endfor %}
-* {% include text-color.html color="red" text="Beta v.0.6+ - TBA?" %}
-
-### [{{TadukooUtil.title}}]({{TadukooUtil.url}})
-> {% include text-color.html color="yellow" text="Working on Beta v.0.7" %}
-{%- assign util_changelogs = site.changelogs | where:"project", "TadukooUtil" | sort -%}
-{% for util_changelog in util_changelogs -%}
-{% assign logs = util_changelog.changelog | reverse -%}
-{% for log in logs -%}
-{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
-* {% include text-color.html color="lime" text=log_text %}
+{%- assign upcoming_versions = page.upcoming_versions[master_project] -%}
+{% for upcoming_version in upcoming_versions %}
+* {% include text-color.html color="red" text=upcoming_version %}
 {%- endfor %}
-{%- endfor %}
-* {% include text-color.html color="red" text="Others TBA" %}
-* {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-
-### [{{TadukooJava.title}}]({{TadukooJava.url}})
-> {% include text-color.html color="yellow" text="Working on Beta v.0.6" %}
-{%- assign java_changelogs = site.changelogs | where:"project", "TadukooJava" | sort -%}
-{% for java_changelog in java_changelogs -%}
-{% assign logs = java_changelog.changelog | reverse -%}
-{% for log in logs -%}
-{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
-* {% include text-color.html color="lime" text=log_text %}
-{%- endfor %}
-{%- endfor %}
-
-### [{{UltimatePower.title}}]({{UltimatePower.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
-{%- assign up_changelogs = site.changelogs | where:"project", "UltimatePower" | sort -%}
-{% for up_changelog in up_changelogs -%}
-{% assign logs = up_changelog.changelog | reverse -%}
-{% for log in logs -%}
-{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
-* {% include text-color.html color="lime" text=log_text %}
-{%- endfor %}
-{%- endfor %}
-
-### [{{TadukooView.title}}]({{TadukooView.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
-{%- assign view_changelogs = site.changelogs | where:"project", "TadukooView" | sort -%}
-{% for view_changelog in view_changelogs -%}
-{% assign logs = view_changelog.changelog | reverse -%}
-{% for log in logs -%}
-{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
-* {% include text-color.html color="lime" text=log_text %}
-{%- endfor %}
-{%- endfor %}
-* {% include text-color.html color="red" text="Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components" %}
-* {% include text-color.html color="red" text="Others TBA" %}
-* {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-
-### [{{TadukooForm.title}}]({{TadukooForm.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
-
-### [{{TadukooLookAndFeel.title}}]({{TadukooLookAndFeel.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
-
-### [{{TadukooParsing.title}}]({{TadukooParsing.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
-{%- assign parsing_changelogs = site.changelogs | where:"project", "TadukooParsing" | sort -%}
-{% for parsing_changelog in parsing_changelogs -%}
-{% assign logs = parsing_changelog.changelog | reverse -%}
-{% for log in logs -%}
-{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
-* {% include text-color.html color="lime" text=log_text %}
-{%- endfor %}
-{%- endfor %}
-* {% include text-color.html color="red" text="Others TBA" %}
-* {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-
-### [{{TadukooWebServices.title}}]({{TadukooWebServices.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
-{%- assign ws_changelogs = site.changelogs | where:"project", "TadukooWebServices" | sort -%}
-{% for ws_changelog in ws_changelogs -%}
-{% assign logs = ws_changelog.changelog | reverse -%}
-{% for log in logs -%}
-{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
-* {% include text-color.html color="lime" text=log_text %}
-{%- endfor %}
-{%- endfor %}
-* {% include text-color.html color="red" text="Alpha v.0.2 - Complete Tadukoo SOAP" %}
-* {% include text-color.html color="red" text="Others TBA" %}
-* {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-
-### [{{TadukooGitHub.title}}]({{TadukooGitHub.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.2" %}
-{%- assign github_changelogs = site.changelogs | where:"project", "TadukooGitHub" | sort -%}
-{% for github_changelog in github_changelogs -%}
-{% assign logs = github_changelog.changelog | reverse -%}
-{% for log in logs -%}
-{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
-* {% include text-color.html color="lime" text=log_text %}
-{%- endfor %}
-{%- endfor %}
-* {% include text-color.html color="red" text="Others TBA" %}
-* {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
-
-### [{{TadukooEngine.title}}]({{TadukooEngine.url}})
-> {% include text-color.html color="yellow" text="Working on Alpha v.0.1" %}
-* {% include text-color.html color="yellow" text="Alpha v.0.1 - Informational Files" %}
-* {% include text-color.html color="red" text="Alpha v.0.2 - Auto-Updating" %}
-* {% include text-color.html color="red" text="Beta v.0.? - TBA" %}
-* {% include text-color.html color="red" text="Release v.1.0 - Needs Planning" %}
+{% endfor %}
 
 ## History
 ### Prior to the Master Plan
