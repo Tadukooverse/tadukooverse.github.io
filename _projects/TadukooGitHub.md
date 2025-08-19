@@ -3,7 +3,6 @@ short_name: TadukooGitHub
 title: Tadukoo GitHub
 blurb: Tadukoo GitHub is a collection of libraries for interacting with GitHub's web services.
 summary: Tadukoo GitHub is a collection of libraries for interacting with GitHub's web services.
-version: Alpha v.0.1
 github: https://github.com/Tadukooverse/TadukooGitHub
 ---
 ## Modules
