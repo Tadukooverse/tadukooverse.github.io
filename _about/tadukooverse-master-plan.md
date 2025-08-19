@@ -133,6 +133,22 @@ The current goals for Tadukoo Engine/Launcher are the following:
 
 ### [{{TadukooJava.title}}]({{TadukooJava.url}})
 > {% include text-color.html color="yellow" text="Working on Beta v.0.6" %}
+{%- assign cp_changelogs = site.changelogs | where:"project", "TadukooCodeParsing" | sort -%}
+{% for cp_changelog in cp_changelogs -%}
+{% assign logs = cp_changelog.changelog | reverse -%}
+{% for log in logs -%}
+{% assign log_text = "(Code Parsing) " | append: log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
+* {% include text-color.html color="lime" text=log_text %}
+{%- endfor %}
+{%- endfor %}
+{%- assign java_changelogs = site.changelogs | where:"project", "TadukooJava" | sort -%}
+{% for java_changelog in java_changelogs -%}
+{% assign logs = java_changelog.changelog | reverse -%}
+{% for log in logs -%}
+{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
+* {% include text-color.html color="lime" text=log_text %}
+{%- endfor %}
+{%- endfor %}
 
 ### Ultimate Power
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}

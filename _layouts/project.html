@@ -3,7 +3,6 @@ layout: default
 ---
 {{content}}
 
-{% unless page.replaced %}
 {% assign project_guides = site.guides | where:"project", page.short_name | sort %}
 {% if project_guides.size > 0 %}
 <h2 id="guides">Guides</h2>
@@ -21,4 +20,3 @@ layout: default
 {{changelog.blurb}}
 {% endfor %}
 {% endif %}
-{% endunless %}
