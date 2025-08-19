@@ -8,24 +8,25 @@ summary: The current master plan for Tadukooverse. This contains the main plans 
 {% assign TadukooCodeParsing = site.projects | where:"short_name", "TadukooCodeParsing" | first %}
 {% assign TadukooDatabase = site.projects | where:"short_name", "TadukooDatabase" | first %}
 {% assign TadukooEngine = site.projects | where:"short_name", "TadukooEngine" | first %}
+{% assign TadukooForm = site.projects | where:"short_name", "TadukooForm" | first %}
 {% assign TadukooGitHub = site.projects | where:"short_name", "TadukooGitHub" | first %}
 {% assign TadukooJava = site.projects | where:"short_name", "TadukooJava" | first %}
+{% assign TadukooLookAndFeel = site.projects | where:"short_name", "TadukooLookAndFeel" | first %}
 {% assign TadukooMaven = site.projects | where:"short_name", "TadukooMaven" | first %}
 {% assign TadukooParsing = site.projects | where:"short_name", "TadukooParsing" | first %}
 {% assign TadukooUtil = site.projects | where:"short_name", "TadukooUtil" | first %}
 {% assign TadukooView = site.projects | where:"short_name", "TadukooView" | first %}
 {% assign TadukooWebServices = site.projects | where:"short_name", "TadukooWebServices" | first %}
+{% assign UltimatePower = site.projects | where:"short_name", "UltimatePower" | first %}
+{% assign master_projects = "TadukooMaven,TadukooUtil,TadukooJava,UltimatePower,TadukooView,TadukooForm,TadukooLookAndFeel,TadukooParsing,TadukooWebServices,TadukooGitHub,TadukooEngine" | split:"," %}
 ## Plans
 ### Overview
 The current goal with the Tadukooverse Master Plan is to get to release v.1.0 of [{{TadukooEngine.title}}]({{TadukooEngine.url}}). To get there, we need to get to Java 17, make some changes to the engine, and 
 reach release v.1.0 (or higher) of the following projects:
-* [{{TadukooMaven.title}}]({{TadukooMaven.url}})
-* [{{TadukooUtil.title}}]({{TadukooUtil.url}})
-* [{{TadukooView.title}}]({{TadukooView.url}})
-* [{{TadukooParsing.title}}]({{TadukooParsing.url}})
-* [{{TadukooWebServices.title}}]({{TadukooWebServices.url}})
-* [{{TadukooGitHub.title}}]({{TadukooGitHub.url}})
-* [{{TadukooAnnotations.title}}]({{TadukooAnnotations.url}})
+{% for master_project in master_projects -%}
+{% assign project = site.projects | where:"short_name", master_project | first %}
+* [{{project.title}}]({{project.url}})
+{%- endfor %}
 
 Java 17 is being required because it's an LTS (long-term support) release and we want to use features of Java 14+
 
@@ -57,7 +58,8 @@ The current goals for Tadukoo Util are the following:
 The current goals for Tadukoo Java are the following:
 * TBA
 
-### Ultimate Power
+### [{{UltimatePower.title}}]({{UltimatePower.url}})
+{{UltimatePower.summary}}
 
 The current goals for Ultimate Power are the following:
 * TBA
@@ -142,8 +144,16 @@ The current goals for Tadukoo Engine/Launcher are the following:
 {%- endfor %}
 {%- endfor %}
 
-### Ultimate Power
+### [{{UltimatePower.title}}]({{UltimatePower.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.3" %}
+{%- assign up_changelogs = site.changelogs | where:"project", "UltimatePower" | sort -%}
+{% for up_changelog in up_changelogs -%}
+{% assign logs = up_changelog.changelog | reverse -%}
+{% for log in logs -%}
+{% assign log_text = log.version | append: " - " | append: log.blurb | append: " - Released " | append: log.released %}
+* {% include text-color.html color="lime" text=log_text %}
+{%- endfor %}
+{%- endfor %}
 
 ### [{{TadukooView.title}}]({{TadukooView.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
@@ -159,10 +169,10 @@ The current goals for Tadukoo Engine/Launcher are the following:
 * {% include text-color.html color="red" text="Others TBA" %}
 * {% include text-color.html color="red" text="Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0" %}
 
-### Tadukoo Form
+### [{{TadukooForm.title}}]({{TadukooForm.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
 
-### Tadukoo Look & Feel
+### [{{TadukooLookAndFeel.title}}]({{TadukooLookAndFeel.url}})
 > {% include text-color.html color="yellow" text="Working on Alpha v.0.4" %}
 
 ### [{{TadukooParsing.title}}]({{TadukooParsing.url}})
@@ -264,11 +274,12 @@ other projects reach release v.1.0+, they'll use annotations for noting backward
 [{{TadukooDatabase.title}}]({{TadukooDatabse.url}}) and [{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) can be found on the [Other Project Plans page](/about/other-project-plans.html).
 
 ### 4 Years Changes/Releases Catchup - August 16, 2025
-Now [{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) is [{{TadukooJava.title}}]({{TadukooJava.url}}), and it's relevant for the plan again, because of Ultimate Power using it.
+Now [{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) is [{{TadukooJava.title}}]({{TadukooJava.url}}), and it's relevant for the plan again, because of [{{UltimatePower.title}}]({{UltimatePower.url}}) using it.
 
-Ultimate Power is a new project that will be used to make custom annotations for generating simple code, similar to Lombok. Ultimate Power requires Java parsing/generation to work, 
-and it will be used by all projects other than [{{TadukooJava.title}}]({{TadukooJava.url}}) and [{{TadukooUtil.title}}]({{TadukooUtil.url}}). Ultimate Power is also effectively 
-the replacement of [{{TadukooAnnotations.title}}]({{TadukooAnnotations.url}}).
+[{{UltimatePower.title}}]({{UltimatePower.url}}) is a new project that will be used to make custom annotations for generating simple code, similar to Lombok.
+[{{UltimatePower.title}}]({{UltimatePower.url}}) requires Java parsing/generation to work, and it will be used by all projects other than [{{TadukooJava.title}}]({{TadukooJava.url}}) and 
+[{{TadukooUtil.title}}]({{TadukooUtil.url}}). [{{UltimatePower.title}}]({{UltimatePower.url}}) is also effectively the replacement of [{{TadukooAnnotations.title}}]({{TadukooAnnotations.url}}).
 
 Also in the past few years, [{{TadukooView.title}}]({{TadukooView.url}}) was split into 3 projects. [{{TadukooView.title}}]({{TadukooView.url}}) now just contains the basic utilities 
-in View and Components modules. Tadukoo Form is the form content, now split into 3 modules, Form Fields, Form, and Form Components. Tadukoo Look & Feel is now its own project.
+in View and Components modules. [{{TadukooForm.title}}]({{TadukooForm.url}}) is the form content, now split into 3 modules, Form Fields, Form, and Form Components. 
+[{{TadukooLookAndFeel.title}}]({{TadukooLookAndFeel.url}}) is now its own project.
