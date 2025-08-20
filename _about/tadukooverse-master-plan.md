@@ -8,33 +8,34 @@ current_work:
   TadukooUtil: Working on Beta v.0.7
   TadukooJava: Working on Beta v.0.6
   UltimatePower: Working on Alpha v.0.3
-  TadukooView: Working on Alpha v.0.4
-  TadukooForm: Working on Alpha v.0.4
-  TadukooLookAndFeel: Working on Alpha v.0.4
   TadukooParsing: Working on Alpha v.0.4
   TadukooWebServices: Working on Alpha v.0.2
   TadukooGitHub: Working on Alpha v.0.2
+  TadukooView: Working on Alpha v.0.4
+  TadukooForm: Working on Alpha v.0.4
+  TadukooLookAndFeel: Working on Alpha v.0.4
   TadukooEngine: Working on Alpha v.0.1
 upcoming_versions:
   TadukooMaven: 
-  - Beta v.0.6+ - TBA?
+  - Others TBA
   TadukooUtil:
+  - Beta v.0.7 - Non-Throwing/Int/Long/Double Functions and Throwing Streams
   - Others TBA
-  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
-  TadukooView:
-  - Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components
+  TadukooJava:
+  - Beta v.0.6 - Type Parameters, Varargs, and Static Code Blocks
+  - Beta v.0.7 - Interfaces, Enums, Records, and Annotation Classes
+  - Beta v.0.8 - Pure Java Code
   - Others TBA
-  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
   TadukooParsing:
   - Others TBA
-  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
   TadukooWebServices:
   - Alpha v.0.2 - Complete Tadukoo SOAP
   - Others TBA
-  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
   TadukooGitHub:
   - Others TBA
-  - Release v.1.0 - Prepare for Tadukoo Engine/Launcher v.1.0
+  TadukooView:
+  - Alpha v.0.4 - Complete Look & Feel Pieces Used in Form/Components
+  - Others TBA
   TadukooEngine:
   - Alpha v.0.1 - Informational files
   - Alpha v.0.2 - Auto-Updating
@@ -43,24 +44,44 @@ upcoming_versions:
 current_plans:
   TadukooMaven:
   - item: Parent POMs to be used by libraries and programs
+    color: lime
   - item: Maven Archetypes to be used for libraries and programs
+    color: lime
   TadukooUtil:
-  - item: TBA
+  - item: Tadukoo Lang in a good state
+    color: lime
+  - item: Tadukoo Functions in a good state
+    color: lime
+  - item: Tadukoo Util in a good state
+    color: lime
+  - item: Tadukoo JUnit in a good state
+    color: lime
+  - item: Non-Throwing Functions (Beta v.0.7)
+  - item: Int/Long/Double Functions (Beta v.0.7)
+  - item: Throwing Streams (Beta v.0.7)
   TadukooJava:
-  - item: TBA
+  - item: Java Type (to handle types better) (Beta v.0.6)
+  - item: Type Parameters (Beta v.0.6)
+  - item: Varargs (Beta v.0.6)
+  - item: Static Code Blocks (Beta v.0.6)
+  - item: Interface Support (Beta v.0.7)
+  - item: Enum Support (Beta v.0.7)
+  - item: Record Support (Beta v.0.7)
+  - item: Annotation Class Support (Beta v.0.7)
+  - item: Greater parsing of code itself (within methods and such) (Beta v.0.8)
   UltimatePower:
-  - item: TBA
-  TadukooView:
-  - item: TBA
-  TadukooForm:
-  - item: TBA
-  TadukooLookAndFeel:
   - item: TBA
   TadukooParsing:
   - item: TBA
   TadukooWebServices:
   - item: TBA
   TadukooGitHub:
+  - item: TBA
+  TadukooView:
+  - item: TBA
+  TadukooForm:
+  - item: TBA
+  TadukooLookAndFeel:
   - item: TBA
   TadukooEngine:
   - item: Running and terminating programs
@@ -84,14 +105,17 @@ current_plans:
 {% assign TadukooView = site.projects | where:"short_name", "TadukooView" | first %}
 {% assign TadukooWebServices = site.projects | where:"short_name", "TadukooWebServices" | first %}
 {% assign UltimatePower = site.projects | where:"short_name", "UltimatePower" | first %}
-{% assign master_projects = "TadukooMaven,TadukooUtil,TadukooJava,UltimatePower,TadukooView,TadukooForm,TadukooLookAndFeel,TadukooParsing,TadukooWebServices,TadukooGitHub,TadukooEngine" | split:"," %}
+{% assign master_projects = "TadukooMaven,TadukooUtil,TadukooJava,UltimatePower,TadukooParsing,TadukooWebServices,TadukooGitHub,TadukooView,TadukooForm,TadukooLookAndFeel,TadukooEngine" | split:"," %}
 ## Plans
 ### Overview
 The current goal with the Tadukooverse Master Plan is to get to release v.1.0 of [{{TadukooEngine.title}}]({{TadukooEngine.url}}). To get there, we need to get to Java 17, make some changes to the engine, and 
 reach release v.1.0 (or higher) of the following projects:
 {% for master_project in master_projects -%}
 {% assign project = site.projects | where:"short_name", master_project | first %}
-* [{{project.title}}]({{project.url}})
+{% assign latest_changelog = site.changelogs | where:"project", master_project | last -%}
+{% assign latest_log = latest_changelog.changelog | first -%}
+{% assign latest_version = latest_log.version -%}
+* [{{project.title}}]({{project.url}}) - {{latest_version}}
 {%- endfor %}
 
 Java 17 is being required because it's an LTS (long-term support) release and we want to use features of Java 14+
@@ -106,7 +130,11 @@ Release v.1.0+ of the other projects is required because that means they'll incl
 
 The current goals for {{project.title}} are the following:
 {% for plan in current_plans -%}
+{% if plan.color -%}
+* {% include text-color.html color=plan.color text=plan.item %}
+{%- else -%}
 * {{plan.item}}
+{%- endif %}
 {% endfor %}
 {% endfor %}
 
@@ -193,3 +221,25 @@ Now [{{TadukooCodeParsing.title}}]({{TadukooCodeParsing.url}}) is [{{TadukooJava
 Also in the past few years, [{{TadukooView.title}}]({{TadukooView.url}}) was split into 3 projects. [{{TadukooView.title}}]({{TadukooView.url}}) now just contains the basic utilities 
 in View and Components modules. [{{TadukooForm.title}}]({{TadukooForm.url}}) is the form content, now split into 3 modules, Form Fields, Form, and Form Components. 
 [{{TadukooLookAndFeel.title}}]({{TadukooLookAndFeel.url}}) is now its own project.
+
+### Tadukoo Util and Java Goals - August 19, 2025
+Currently [{{TadukooUtil.title}}]({{TadukooUtil.url}}) only has 1 planned version: Beta v.0.7, which is coming along with [{{TadukooJava.title}}]({{TadukooJava.url}}) Beta v.0.6.
+Those goals for [{{TadukooUtil.title}}]({{TadukooUtil.url}}) are:
+* Non-Throwing Functions
+* Int/Long/Double Functions
+* Throwing Streams
+* Some StringUtil changes for use in Java
+
+[{{TadukooJava.title}}]({{TadukooJava.url}}) currently has 3 versions planned:
+* Beta v.0.6
+  * Java Type (to handle types better)
+  * Type Parameters
+  * Varargs
+  * Static Code Blocks
+* Beta v.0.7
+  * Interface support
+  * Enum support
+  * Record support
+  * annotation class support
+* Beta v.0.8
+  * Greater parsing of code itself (within methods and such)
