@@ -26,6 +26,13 @@ upcoming_versions:
   - Beta v.0.7 - Interfaces, Enums, Records, and Annotation Classes
   - Beta v.0.8 - Pure Java Code
   - Others TBA
+  UltimatePower:
+  - Alpha v.0.3 - Maven Plugin with configurations
+  - Alpha v.0.4 - IntelliJ Plugin
+  - Beta v.0.5 - Project Annotation Auto-Detection
+  - Beta v.0.6 - Dependency Annotation Auto-Detection
+  - Beta v.0.7 - Other Class References
+  - Others TBA
   TadukooParsing:
   - Others TBA
   TadukooWebServices:
@@ -70,7 +77,11 @@ current_plans:
   - item: Annotation Class Support (Beta v.0.7)
   - item: Greater parsing of code itself (within methods and such) (Beta v.0.8)
   UltimatePower:
-  - item: TBA
+  - item: Maven plugin with configurations (Alpha v.0.3)
+  - item: IntelliJ plugin for using generated code (Alpha v.0.4)
+  - item: Auto-detection of annotations within the project (Beta v.0.5)
+  - item: Auto-detection of annotations within dependencies (Beta v.0.6)
+  - item: Ability to reference classes for using their code (Beta v.0.7)
   TadukooParsing:
   - item: TBA
   TadukooWebServices:
@@ -243,3 +254,21 @@ Those goals for [{{TadukooUtil.title}}]({{TadukooUtil.url}}) are:
   * annotation class support
 * Beta v.0.8
   * Greater parsing of code itself (within methods and such)
+
+### Ultimate Power Goals - August 20, 2025
+Currently the main goal is to get [{{UltimatePower.title}}]({{UltimatePower.url}}) to a good state. Getting it to a good state makes it easier to get the projects that rely 
+on it into a good state in a better way. But [{{UltimatePower.title}}]({{UltimatePower.url}}) requires [{{TadukooJava.title}}]({{TadukooJava.url}}) to be in a good enough 
+state to be able to parse Java code for the annotations used. So at this point the plan is:
+* [{{TadukooUtil.title}}]({{TadukooUtil.url}}) Beta v.0.7 and [{{TadukooJava.title}}]({{TadukooJava.url}}) Beta v.0.6 release together
+* [{{TadukooJava.title}}]({{TadukooJava.url}}) Beta v.0.7 releases, so that (theoretically) all Java code may be parsed
+* [{{UltimatePower.title}}]({{UltimatePower.url}}) Alpha v.0.3 is released, which is just a maven plugin with configurations to use it
+* [{{UltimatePower.title}}]({{UltimatePower.url}}) Alpha v.0.4 is released, which adds an IntelliJ plugin so handle using methods/code created by the annotations
+* [{{UltimatePower.title}}]({{UltimatePower.url}}) Beta v.0.5 is released, which auto-detects relevant annotations within a single project to run if the maven goal is present 
+(so remove the need for configurations for ones within the project itself)
+* [{{UltimatePower.title}}]({{UltimatePower.url}}) Beta v.0.6 is released, which creates a way for annotations to be auto-detected within the project's dependencies 
+(so remove the need for configurations entirely hopefully, and just auto-detect stuff)
+* [{{UltimatePower.title}}]({{UltimatePower.url}}) Beta v.0.7 is released, which allows you to grab relevant related code to be used (e.g. say you have an annotation where you 
+want to copy down methods from a parent class and modify them, you can grab the parent class's code easily to do so)
+
+You'll notice that [{{TadukooJava.title}}]({{TadukooJava.url}}) Beta v.0.8 isn't in that plan. This is because it's not required for [{{UltimatePower.title}}]({{UltimatePower.url}}) 
+to work, but it would be useful for other projects so it is planned to be added at some point before official release.
